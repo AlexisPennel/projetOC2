@@ -9,48 +9,49 @@
 
     <body>
         <header>
-            <img src="images/Booki.png" alt="logo booki" role="img">
-        
             <nav role="navigation" aria-label="main navigation">
+                <a href="#"><img src="images/Booki.png" alt="logo booki"></a>
+                
                 <ul> 
                     <li><a href="#hébergements">Hébergements</a></li>
                     <li><a href="#activités">Activités</a></li>
                 </ul>    
             </nav>
-        </header>
-        
-        <section class="search-menu">
-            <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-            <p>en plein centre ville ou en pleine nature</p>
-            
-            <form method="post">
-                <i class="fa-solid fa-location-dot"></i>
-                <input type="search" placeholder="Marseille,France">
-                <input type="submit" value="Rechercher">
-            </form>
 
-            <section class="filters">
-                <h2>Filtres</h2>
+            <section>
+                <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+                <p>en plein centre ville ou en pleine nature</p>
                 
-                <i class="fa-solid fa-money-bill-wave"></i>
-                <button type="button">Economique</button>
-
-                <i class="fa-solid fa-child-reaching"></i>
-                <button type="button">Familial</button>
-
-                <i class="fa-solid fa-heart"></i>
-                <button type="button">Romantique</button>
-
-                <i class="fa-solid fa-dog"></i>
-                <button type="button">Animaux autorisés</button>
+                <form method="post">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <input type="search" placeholder="Marseille,France">
+                    <input type="submit" value="Rechercher">
+                </form>
             </section>
+        </header>
+            
+        <aside class="filters">
+            <h2>Filtres</h2>
+                
+            <i class="fa-solid fa-money-bill-wave"></i>
+            <button type="button">Economique</button>
+
+            <i class="fa-solid fa-child-reaching"></i>
+            <button type="button">Familial</button>
+
+            <i class="fa-solid fa-heart"></i>
+            <button type="button">Romantique</button>
+
+            <i class="fa-solid fa-dog"></i>
+            <button type="button">Animaux autorisés</button>
+        
             
             <i class="fa-solid fa-circle-info"></i>
             <p>Plus de 500 logements sont disponibles dans cette ville</p>
-        </section>
-
+        </aside>
+        
         <main class="main-content">
-            <article class="accomodations" id="hébergements">
+            <section class="accomodations" id="hébergements">
                 <h2>Hébergements à Marseille</h2>
     
                 <a href="#" class="Auberge la cannebière">
@@ -120,13 +121,13 @@
                 </a>
     
                 <a href="#" class="Afficher plus">Afficher plus</a>
-            </article>
+            </section>
     
-            <aside class="most-popular">
-                <header>
-                    <h2>Les plus populaires</h2>
-                    <i class="fa-solid fa-star"></i>
-                </header>
+            <section class="most-popular">
+                
+                <h2>Les plus populaires</h2>
+                <i class="fa-solid fa-star"></i>
+                
     
                 <a href="#" class="Hôtel le soleil du matin">
                     <img src="images/hébergements/Hotel_Le_soleil_du_matin.jpg" alt="Image d'une chambre de ton vert avec un lit double confortable, une tête de lit en miroir et un lustre luxueux">
@@ -160,43 +161,43 @@
                     <i class="fa-solid fa-star"></i>
                     <i class="fa-solid fa-star"></i>
                 </a>
-            </aside>
+            </section>
+        
+            <section class="activities" id="activités">
+                <h2>Activités à Marseille</h2>
+                
+                <a href="#" class="Vieux-port">
+                    <img src="images/Activités/Vieux-port.jpg" alt="Image du Vieux-Port de Marseille avec en premier plan les bateaux du port et en second plan les immeubles d'habitation">
+                    <h2>Vieux port</h2>
+                </a>
+
+                <a href="#" class="Fort-de-pomègues">
+                    <img src="images/Activités/Fort-de-pomègues.jpg" alt="Image du Fort de Pomègue érigé sur des rochers">
+                    <h2>Fort de Pomègues</h2>
+                </a>
+
+                <a href="#" class="Îles-du-Frioul">
+                    <img src="images/Activités/ïles-du-Frioul.jpg" alt="Image d'une longue vue pointée en direction des îles du Frioul que l'on aperçoit au large">
+                    <h2>Ïles du Frioul</h2>
+                </a>
+
+                <a href="#" class="Parc-national-des-calanques">   
+                    <img src="images/Activités/Parc national des calanques.jpg" alt="Photo du parc national des calanques prise depuis les falaises avec en second plan la mer Méditerrané">
+                    <h2>Parc national des calanques</h2>
+                </a>
+
+                <a href="#" class="Notre-Dame-de-la-Garde" >
+                    <img src="images/Activités/Notre-Dame-de-la-Garde.jpg" alt="Photo de la basilique Notre-Dame-de-la-Garde au sommet de la colline du même nom">
+                    <h2>Notre-Dame-de-la-Garde</h2>
+                </a>
+
+                <a href="#" class="Parc-Longchamp">
+                    <img src="images/Activités/Parc-Longchamp.jpg" alt="Image du parc Longchamp et de son palais">
+                    <h2>Parc Longchamp</h2>
+                </a>
+            </section>
         </main>
-            
-        <section class="activities" id="activités">
-            <h2>Activités à Marseille</h2>
-            
-            <a href="#" class="Vieux-port">
-                <img src="images/Activités/Vieux-port.jpg" alt="Image du Vieux-Port de Marseille avec en premier plan les bateaux du port et en second plan les immeubles d'habitation">
-                <h2>Vieux port</h2>
-            </a>
-
-            <a href="#" class="Fort-de-pomègues">
-                <img src="images/Activités/Fort-de-pomègues.jpg" alt="Image du Fort de Pomègue érigé sur des rochers">
-                <h2>Fort de Pomègues</h2>
-            </a>
-
-            <a href="#" class="Îles-du-Frioul">
-                <img src="images/Activités/ïles-du-Frioul.jpg" alt="Image d'une longue vue pointée en direction des îles du Frioul que l'on aperçoit au large">
-                <h2>Ïles du Frioul</h2>
-            </a>
-
-            <a href="#" class="Parc-national-des-calanques">   
-                <img src="images/Activités/Parc national des calanques.jpg" alt="Photo du parc national des calanques prise depuis les falaises avec en second plan la mer Méditerrané">
-                <h2>Parc national des calanques</h2>
-            </a>
-
-            <a href="#" class="Notre-Dame-de-la-Garde" >
-                <img src="images/Activités/Notre-Dame-de-la-Garde.jpg" alt="Photo de la basilique Notre-Dame-de-la-Garde au sommet de la colline du même nom">
-                <h2>Notre-Dame-de-la-Garde</h2>
-            </a>
-
-            <a href="#" class="Parc-Longchamp">
-                <img src="images/Activités/Parc-Longchamp.jpg" alt="Image du parc Longchamp et de son palais">
-                <h2>Parc Longchamp</h2>
-            </a>
-        </section>
-
+        
         <footer>
             <section class="about">
                 <h3>A propos</h3>
@@ -231,4 +232,11 @@
         </footer>
     </body>
 </html>
+        
+
+            
+        
+
+        
+
 
