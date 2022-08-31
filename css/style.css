@@ -134,7 +134,7 @@ html,body{
         
         .filters__eco:hover {
             box-shadow: 0px 0px 10px #0065FC;
-            
+            font-size: 18px;
         }
     
         .eco__icon {
@@ -170,7 +170,7 @@ html,body{
 
         .filters__family:hover {
             box-shadow: 0px 0px 10px #0065FC;
-            
+            font-size: 18px;
         }
     
         .family__icon {
@@ -206,7 +206,7 @@ html,body{
         
         .filters__eco:hover {
             box-shadow: 0px 0px 10px #0065FC;
-            
+            font-size: 18px;
         }
     
         .eco__icon {
@@ -242,7 +242,7 @@ html,body{
 
         .filters__romantic:hover {
             box-shadow: 0px 0px 10px #0065FC;
-            
+            font-size: 18px;
         }
     
         .romantic__icon {
@@ -270,7 +270,7 @@ html,body{
         .filters__animals {
             background-color: white;
             height: 40px;
-            width: 210px;
+            width: 225px;
             display: flex;
             border: 2px #F2F2F2 solid;
             border-radius: 30px 30px 30px 30px;
@@ -278,6 +278,7 @@ html,body{
 
         .filters__animals:hover {
             box-shadow: 0px 0px 10px #0065FC;
+            font-size: 18px;
         }
             
     
@@ -296,7 +297,7 @@ html,body{
         .animals__button {
             font-weight: bold;
             height: 40px;
-            width: 150px;
+            width: 170px;
             border: none;
             background-color: white;
         }
