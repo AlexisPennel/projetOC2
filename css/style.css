@@ -105,6 +105,10 @@ html,body{
             border-radius: 0 10px 10px 0 ;
             }
 
+            .search__button:hover {
+                box-shadow: 0px 0px 10px #0065FC;
+            }
+
     /*aside*/
             
         /*filtres*/
@@ -154,5 +158,123 @@ html,body{
         }
     
         /*filtre familial*/
+
+        .filters__family {
+            background-color: white;
+            height: 40px;
+            width: 165px;
+            display: flex;
+            border: 1px #F2F2F2 solid;
+            border-radius: 30px 30px 30px 30px;
+        }
+
+        .filters__family:hover {
+            box-shadow: 0px 0px 10px #0065FC;
+            
+        }
+    
+        .family__icon {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 40px;
+            height: 40px;
+            color: #0065FC;
+            background-color:#0065fc1f;
+            
+            border-radius: 50%;
+        }
+    
+        .family__button {
+            font-weight: bold;
+            height: 40px;
+            width: 110px;
+            border: none;
+            background-color: white;
+        }
+
+        /*filtre*/
+
+        .filters__eco {
+            background-color: white;
+            height: 40px;
+            width: 165px;
+            display: flex;
+            border: 1px #F2F2F2 solid;
+            border-radius: 30px 30px 30px 30px;
+        }
+        
+        .filters__eco:hover {
+            box-shadow: 0px 0px 10px #0065FC;
+            
+        }
+    
+        .eco__icon {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 40px;
+            height: 40px;
+            color: #0065FC;
+            background-color:#0065fc1f;
+            
+            border-radius: 50%;
+        }
+    
+        .eco__button {
+            font-weight: bold;
+            height: 40px;
+            width: 110px;
+            border: none;
+            background-color: white;
+        }
+    
+        /*filtre familial*/
+
+        .filters__romantic {
+            background-color: white;
+            height: 40px;
+            width: 165px;
+            display: flex;
+            border: 1px #F2F2F2 solid;
+            border-radius: 30px 30px 30px 30px;
+        }
+
+        .filters__romantic:hover {
+            box-shadow: 0px 0px 10px #0065FC;
+            
+        }
+    
+        .romantic__icon {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 40px;
+            height: 40px;
+            color: #0065FC;
+            background-color:#0065fc1f;
+            
+            border-radius: 50%;
+        }
+    
+        .romantic__button {
+            font-weight: bold;
+            height: 40px;
+            width: 110px;
+            border: none;
+            background-color: white;
+        }
+
+        /*filtre animaux*/
+
+        .filters__animals {
+            display: flex;
+            background-color: white;
+            height: 40px;
+            width: 165px;
+            display: flex;
+            border: 1px #F2F2F2 solid;
+            border-radius: 30px 30px 30px 30px;
+        }
 
         
