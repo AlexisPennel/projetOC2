@@ -338,3 +338,93 @@ body {
 .info__text {
     margin-left: 3px;
 }
+
+/*main*/ 
+
+/*hébergement à Marseille*/ 
+
+.main__accomodations {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 0.1fr 1fr 1fr 0.1fr;
+    border: 5px black solid;
+    width: 68%;
+}
+
+.accomodations__title {
+grid-column: 1/4;
+}
+
+.accomodations__aubergelacannebière {
+    border: 3px blue solid;
+    width: 300px;
+    height: 300px;
+    background-color: aqua;
+}
+
+.aubergelacannebière__image {
+    width: 300px;
+    height: 160px;
+}
+
+.accomodations__hotelduport {
+    border: 3px blue solid;
+    width: 300px;
+    height: 300px;
+    background-color: aqua;
+}
+
+.hotelduport__image {
+    width: 300px;
+    height: 160px;
+}
+
+
+.accomodations__hotellesmouettes {
+    border: 3px blue solid;
+    width: 300px;
+    height: 300px;
+    background-color: aqua;
+}
+
+.hotellesmouettes__image {
+    width: 300px;
+    height: 160px;
+}
+
+
+.accomodations__hoteldelamer {
+    border: 3px blue solid;
+    width: 300px;
+    height: 300px;
+    background-color: aqua;
+}
+
+.hoteldelamer__image {
+    width: 300px;
+    height: 160px;
+}
+
+.accomodations__aubergelepanier {
+    border: 3px blue solid;
+    width: 300px;
+    height: 300px;
+    background-color: aqua;
+}
+
+.aubergelepanier__image {
+    width: 300px;
+    height: 300px;
+}
+
+.accomodations__hotelchezamina {
+    border: 3px blue solid;
+    width: 300px;
+    height: 300px;
+    background-color: aqua;
+}
+
+.hotelchezamina__image {
+    width: 300px;
+    height: 300px;
+}
