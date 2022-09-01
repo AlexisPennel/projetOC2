@@ -1125,6 +1125,7 @@ footer {
 
 .footer__accommodations {
     margin-left: 200px;
+    margin-bottom: 40px;
 }
 
 .accommodations__links {
@@ -1139,6 +1140,7 @@ footer {
 
 .footer__assistance {
     margin-left: 230px;
+    margin-bottom: 40px;
 }
 .assistance__links {
     display: flex;
