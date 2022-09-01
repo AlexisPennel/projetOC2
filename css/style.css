@@ -789,7 +789,6 @@ aside {
     grid-template-columns: 1fr 1fr;
     width: 370px;
     height: 130px;
-    height: px;
     border: 0px white solid;
     border-radius: 15px;
     background-color: white;
@@ -846,7 +845,6 @@ aside {
     grid-template-columns: 1fr 1fr;
     width: 370px;
     height: 130px;
-    height: px;
     border: 0px white solid;
     border-radius: 15px;
     background-color: white;
@@ -868,7 +866,6 @@ aside {
     border-radius: 15px 0 0 15px;
     margin-top: 5px;
     margin-left: 5px;
-
 }
 
 .hoteltoutbleu__title {
