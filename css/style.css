@@ -113,6 +113,10 @@ body {
 
 /*aside*/
 
+aside {
+margin-top: 30px;
+}
+
 /*filtres*/
 
 .filters {
@@ -323,10 +327,11 @@ body {
     justify-content: center;
     align-items: center;
     background-color: blue;
-    height: 10px;
-    width: 10px;
+    height: 11px;
+    width: 11px;
     border: 7px #DEEBFF solid;
     border-radius: 50%;
+    margin-bottom: 1px;
 }
 
 .fa-circle-info {
@@ -352,6 +357,7 @@ body {
     background-color: #F2F2F2;
     width: 68%;
     height: 650px;
+    margin-top: 20px;
 }
 
 .accomodations__title {
