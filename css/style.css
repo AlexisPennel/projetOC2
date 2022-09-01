@@ -114,7 +114,7 @@ body {
 /*aside*/
 
 aside {
-margin-top: 30px;
+    margin-top: 30px;
 }
 
 /*filtres*/
@@ -346,40 +346,44 @@ margin-top: 30px;
 
 /*main*/
 
+.main__accomodations {
+    display: flex;
+}
+
 /*hébergement à Marseille*/
 
-.main__accomodations {
+.accomodations__principal {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 0.1fr 1fr 1fr 0.1fr;
     border: 3px #F2F2F2 solid;
     border-radius: 15px;
     background-color: #F2F2F2;
-    width: 68%;
-    height: 650px;
+    width: 762px;
+    height: 570px;
     margin-top: 20px;
 }
 
-.accomodations__title {
+.principal__title {
     grid-column: 1/4;
-    margin-left: 35px;
+    margin-left: 18px;
     font-weight: bold;
 }
 
 /*auberge la cannebière*/
 
-.accomodations__aubergelacannebière {
+.principal__aubergelacannebière {
     display: grid;
     grid-template-rows: 2fr 0.5fr 0.5fr 0.5fr;
     border: 3px blue solid;
-    width: 250px;
-    height: 230px;
+    width: 230px;
+    height: 210px;
     border: 0px white solid;
     border-radius: 15px;
     background-color: white;
     text-decoration: none;
     color: black;
-    margin-left: 35px;
+    margin-left: 18px;
     box-shadow: 10px 10px 10px #aeb0b43d;
 }
 
@@ -390,10 +394,10 @@ margin-top: 30px;
 .aubergelacannebière__image {
     border: 1px #DEEBFF solid;
     border-radius: 15px 15px 0 0;
-    width: 240px;
-    height: 130px;
-    margin-left: 2.3px;
-    margin-top: 4px;
+    width: 218px;
+    height: 120px;
+    margin-left: 5px;
+    margin-top: 5px;
 }
 
 .aubergelacannebière__title {
@@ -401,6 +405,7 @@ margin-top: 30px;
     font-weight: bold;
     margin-top: 7px;
     margin-left: 8px;
+    margin-bottom: 5px;
 }
 
 .aubergelacannebière__text {
@@ -426,14 +431,15 @@ margin-top: 30px;
     display: grid;
     grid-template-rows: 2fr 0.5fr 0.5fr 0.5fr;
     border: 3px blue solid;
-    width: 250px;
-    height: 230px;
+    width: 230px;
+    height: 210px;
     border: 0px white solid;
     border-radius: 15px;
     background-color: white;
     text-decoration: none;
     color: black;
-    margin-left: 16px;
+    margin-left: 18px;
+    margin-right: 18px;
     box-shadow: 10px 10px 10px #aeb0b43d;
 }
 
@@ -444,10 +450,10 @@ margin-top: 30px;
 .hotelduport__image {
     border: 1px #DEEBFF solid;
     border-radius: 15px 15px 0 0;
-    width: 240px;
-    height: 130px;
-    margin-left: 2.3px;
-    margin-top: 4px;
+    width: 218px;
+    height: 120px;
+    margin-left: 5px;
+    margin-top: 5px;
 }
 
 .hotelduport__title {
@@ -455,6 +461,7 @@ margin-top: 30px;
     font-weight: bold;
     margin-top: 7px;
     margin-left: 8px;
+    margin-bottom: 5px;
 }
 
 .hotelduport__text {
@@ -476,15 +483,15 @@ margin-top: 30px;
     display: grid;
     grid-template-rows: 2fr 0.5fr 0.5fr 0.5fr;
     border: 3px blue solid;
-    width: 250px;
-    height: 230px;
+    width: 230px;
+    height: 210px;
     border: 0px white solid;
     border-radius: 15px;
     background-color: white;
     text-decoration: none;
     color: black;
-    margin-left:0;
-    margin-right: 35px;
+    margin-left: 0px;
+    margin-right: 0px;
     box-shadow: 10px 10px 10px #aeb0b43d;
 }
 
@@ -495,10 +502,10 @@ margin-top: 30px;
 .hotellesmouettes__image {
     border: 1px #DEEBFF solid;
     border-radius: 15px 15px 0 0;
-    width: 240px;
-    height: 130px;
-    margin-left: 2.3px;
-    margin-top: 4px;
+    width: 218px;
+    height: 120px;
+    margin-left: 5px;
+    margin-top: 5px;
 }
 
 .hotellesmouettes__title {
@@ -506,6 +513,7 @@ margin-top: 30px;
     font-weight: bold;
     margin-top: 7px;
     margin-left: 8px;
+    margin-bottom: 5px;
 }
 
 .hotellesmouettes__text {
@@ -531,14 +539,14 @@ margin-top: 30px;
     display: grid;
     grid-template-rows: 2fr 0.5fr 0.5fr 0.5fr;
     border: 3px blue solid;
-    width: 250px;
-    height: 230px;
+    width: 230px;
+    height: 210px;
     border: 0px white solid;
     border-radius: 15px;
     background-color: white;
     text-decoration: none;
     color: black;
-    margin-left: 35px;
+    margin-left: 20px;
     box-shadow: 10px 10px 10px #aeb0b43d;
 }
 
@@ -547,12 +555,12 @@ margin-top: 30px;
 }
 
 .hoteldelamer__image {
-    border: 1px #DEEBFF solid;
+    border: 1px white solid;
     border-radius: 15px 15px 0 0;
-    width: 240px;
-    height: 130px;
-    margin-left: 2.3px;
-    margin-top: 4px;
+    width: 218px;
+    height: 120px;
+    margin-left: 5px;
+    margin-top: 5px;
 }
 
 .hoteldelamer__title {
@@ -560,6 +568,7 @@ margin-top: 30px;
     font-weight: bold;
     margin-top: 7px;
     margin-left: 8px;
+    margin-bottom: 5px;
 }
 
 .hoteldelamer__text {
@@ -585,16 +594,17 @@ margin-top: 30px;
     display: grid;
     grid-template-rows: 2fr 0.5fr 0.5fr 0.5fr;
     border: 3px blue solid;
-    width: 250px;
-    height: 230px;
+    width: 230px;
+    height: 210px;
     border: 0px white solid;
     border-radius: 15px;
     background-color: white;
     text-decoration: none;
     color: black;
-    margin-left: 16px;
+    margin-left: 18px;
     box-shadow: 10px 10px 10px #aeb0b43d;
 }
+
 .accomodations__aubergelepanier:hover {
     box-shadow: 0px 0px 10px #0065FC;
 }
@@ -603,10 +613,10 @@ margin-top: 30px;
 .aubergelepanier__image {
     border: 1px #DEEBFF solid;
     border-radius: 15px 15px 0 0;
-    width: 240px;
-    height: 130px;
-    margin-left: 2.3px;
-    margin-top: 4px;
+    width: 218px;
+    height: 120px;
+    margin-left: 5px;
+    margin-top: 5px;
 }
 
 .aubergelepanier__title {
@@ -614,6 +624,7 @@ margin-top: 30px;
     font-weight: bold;
     margin-top: 7px;
     margin-left: 8px;
+    margin-bottom: 5px;
 }
 
 .hoteldelamer__text {
@@ -638,15 +649,15 @@ margin-top: 30px;
 .accomodations__hotelchezamina {
     display: grid;
     grid-template-rows: 2fr 0.5fr 0.5fr 0.5fr;
-    border: 3px blue solid;
-    width: 250px;
-    height: 230px;
+    width: 230px;
+    height: 210px;
     border: 0px white solid;
     border-radius: 15px;
     background-color: white;
     text-decoration: none;
     color: black;
     margin-left: 0px;
+    margin-right: 0px;
     box-shadow: 10px 10px 10px #aeb0b43d;
 }
 
@@ -657,10 +668,10 @@ margin-top: 30px;
 .hotelchezamina__image {
     border: 1px #DEEBFF solid;
     border-radius: 15px 15px 0 0;
-    width: 240px;
-    height: 130px;
-    margin-left: 2.3px;
-    margin-top: 4px;
+    width: 218px;
+    height: 120px;
+    margin-left: 5px;
+    margin-top: 5px;
 }
 
 .hotelchezamina__title {
@@ -668,6 +679,7 @@ margin-top: 30px;
     font-weight: bold;
     margin-top: 7px;
     margin-left: 8px;
+    margin-bottom: 5px;
 }
 
 .hotelchezamina__text {
@@ -690,10 +702,182 @@ margin-top: 30px;
 
 .accomodations__showmore {
     text-decoration: none;
-    color:black;
+    color: black;
     font-weight: bold;
-    margin-left: 35px;
+    margin-left: 18px;
     margin-bottom: 20px;
+}
+
+/*Section Les plus populaires*/
+
+.accommodations__mostpopular {
+    background-color: #F2F2F2;
+    border: 3px #F2F2F2 solid;
+    border-radius: 15px;
+    margin-left: 40px;
+    margin-top: 20px;
+    width: 450px;
+}
+
+/*header*/
+
+.mostpopular__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 37px;
+    font-weight: bold;
+}
+
+/*hébergements les plus populaires*/
+
+/*hotel le soleil du matin*/
+
+.mostpopular__hotellesoleildumatin {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    width: 370px;
+    height: 130px;
+    height: px;
+    border: 0px white solid;
+    border-radius: 15px;
+    background-color: white;
+    margin-left: 37px;
+    text-decoration: none;
+    color: black;
+    box-shadow: 10px 10px 10px #aeb0b43d;
+}
+
+
+.mostpopular__hotellesoleildumatin:hover {
+    box-shadow: 0px 0px 10px #0065FC;
+}
+
+.hotellesoleildumatin__image {
+    width: 150px;
+    height: 120px;
+    grid-area: 1/1/4/1;
+    border: 0px white solid;
+    border-radius: 15px 0 0 15px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.hotellesoleildumatin__title {
+    font-size: medium;
+    font-weight: bold;
+    grid-area: 1/2/1/2;
+}
+
+.hotellesoleildumatin__icons {
+    color: #0065FC;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 15px;
+}
+
+/*au coeur de l'eau*/
+
+.mostpopular__aucoeurdeleau {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    width: 370px;
+    height: 130px;
+    height: px;
+    border: 0px white solid;
+    border-radius: 15px;
+    background-color: white;
+    margin-left: 37px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-decoration: none;
+    color: black;
+    box-shadow: 10px 10px 10px #aeb0b43d;
+}
+
+.mostpopular__aucoeurdeleau:hover {
+    box-shadow: 0px 0px 10px #0065FC;
+}
+
+.aucoeurdeleau__image {
+    width: 150px;
+    height: 120px;
+    grid-area: 1/1/4/1;
+    border: 0px white solid;
+    border-radius: 15px 0 0 15px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.aucoeurdeleau__title {
+    font-size: medium;
+    font-weight: bold;
+    grid-area: 1/2/1/2;
+    margin-bottom: 10px;
+}
+
+.aucoeurdeleau__text {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.aucoeurdeleau__icons {
+    color: #0065FC;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 15px;
+}
+
+/*hotel tout bleu*/
+
+.mostpopular__hoteltoutbleu {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    width: 370px;
+    height: 130px;
+    height: px;
+    border: 0px white solid;
+    border-radius: 15px;
+    background-color: white;
+    margin-left: 37px;
+    text-decoration: none;
+    color: black;
+    box-shadow: 10px 10px 10px #aeb0b43d;
+}
+
+.mostpopular__hoteltoutbleu:hover {
+    box-shadow: 0px 0px 10px #0065FC;
+}
+
+.hoteltoutbleu__image {
+    width: 150px;
+    height: 120px;
+    grid-area: 1/1/4/1;
+    border: 0px white solid;
+    border-radius: 15px 0 0 15px;
+    margin-top: 5px;
+    margin-left: 5px;
 
 }
 
+.hoteltoutbleu__title {
+    font-size: medium;
+    font-weight: bold;
+    grid-area: 1/2/1/2;
+    margin-bottom: 10px;
+}
+
+.hoteltoutbleu__text {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.hoteltoutbleu__icons {
+    color: #0065FC;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 15px;
+}
