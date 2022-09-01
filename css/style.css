@@ -1121,6 +1121,10 @@ footer {
     color: black;
 }
 
+.about__links:hover {
+    color: #0065FC;
+}
+
 /*accomodations*/
 
 .footer__accommodations {
@@ -1136,6 +1140,10 @@ footer {
     color: black;
 }
 
+.accommodations__links:hover {
+    color: #0065FC;
+}
+
 /*assistance*/
 
 .footer__assistance {
@@ -1148,4 +1156,8 @@ footer {
     text-decoration: none;
     color: black;
     line-height: 200%;
+}
+
+.assistance__links:hover {
+color: #0065FC;
 }
