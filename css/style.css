@@ -339,92 +339,345 @@ body {
     margin-left: 3px;
 }
 
-/*main*/ 
+/*main*/
 
-/*hébergement à Marseille*/ 
+/*hébergement à Marseille*/
 
 .main__accomodations {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 0.1fr 1fr 1fr 0.1fr;
-    border: 5px black solid;
+    border: 3px #DEEBFF solid;
+    border-radius: 15px;
+    background-color: #DEEBFF;
     width: 68%;
+    height: 68%;
 }
 
 .accomodations__title {
-grid-column: 1/4;
+    grid-column: 1/4;
+    margin-left: 35px;
+    font-weight: bold;
 }
 
+/*auberge la cannebière*/
+
 .accomodations__aubergelacannebière {
+    display: grid;
+    grid-template-rows: 2fr 0.5fr 0.5fr 0.5fr;
     border: 3px blue solid;
-    width: 300px;
-    height: 300px;
-    background-color: aqua;
+    width: 250px;
+    height: 230px;
+    border: 0px white solid;
+    border-radius: 15px;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    margin-left: 35px;
+    box-shadow: 10px 10px 10px #aeb0b43d;
+}
+
+.accomodations__aubergelacannebière:hover {
+    box-shadow: 0px 0px 10px #0065FC;
 }
 
 .aubergelacannebière__image {
-    width: 300px;
-    height: 160px;
+    border: 1px #DEEBFF solid;
+    border-radius: 15px 15px 0 0;
+    width: 240px;
+    height: 130px;
+    margin-left: 2.3px;
+    margin-top: 4px;
 }
 
+.aubergelacannebière__title {
+    font-size: medium;
+    font-weight: bold;
+    margin-top: 7px;
+    margin-left: 8px;
+}
+
+.aubergelacannebière__text {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 8px;
+}
+
+.aubergelacannebière__icons {
+    display: flex;
+    margin-left: 8px;
+    color: #0065FC;
+}
+
+.aubergelacannebière__icons--empty {
+    color: #DEEBFF;
+}
+
+
+/*hotel du port*/
+
 .accomodations__hotelduport {
+    display: grid;
+    grid-template-rows: 2fr 0.5fr 0.5fr 0.5fr;
     border: 3px blue solid;
-    width: 300px;
-    height: 300px;
-    background-color: aqua;
+    width: 250px;
+    height: 230px;
+    border: 0px white solid;
+    border-radius: 15px;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    margin-left: 16px;
+    box-shadow: 10px 10px 10px #aeb0b43d;
+}
+
+.accomodations__hotelduport:hover {
+    box-shadow: 0px 0px 10px #0065FC;
 }
 
 .hotelduport__image {
-    width: 300px;
-    height: 160px;
+    border: 1px #DEEBFF solid;
+    border-radius: 15px 15px 0 0;
+    width: 240px;
+    height: 130px;
+    margin-left: 2.3px;
+    margin-top: 4px;
+}
+
+.hotelduport__title {
+    font-size: medium;
+    font-weight: bold;
+    margin-top: 7px;
+    margin-left: 8px;
+}
+
+.hotelduport__text {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 8px;
+}
+
+.hotelduport__icons {
+    display: flex;
+    margin-left: 8px;
+    color: #0065FC;
 }
 
 
+/*hotel les mouettes*/
+
 .accomodations__hotellesmouettes {
+    display: grid;
+    grid-template-rows: 2fr 0.5fr 0.5fr 0.5fr;
     border: 3px blue solid;
-    width: 300px;
-    height: 300px;
-    background-color: aqua;
+    width: 250px;
+    height: 230px;
+    border: 0px white solid;
+    border-radius: 15px;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    margin-left:0;
+    margin-right: 35px;
+    box-shadow: 10px 10px 10px #aeb0b43d;
+}
+
+.accomodations__hotellesmouettes:hover {
+    box-shadow: 0px 0px 10px #0065FC;
 }
 
 .hotellesmouettes__image {
-    width: 300px;
-    height: 160px;
+    border: 1px #DEEBFF solid;
+    border-radius: 15px 15px 0 0;
+    width: 240px;
+    height: 130px;
+    margin-left: 2.3px;
+    margin-top: 4px;
+}
+
+.hotellesmouettes__title {
+    font-size: medium;
+    font-weight: bold;
+    margin-top: 7px;
+    margin-left: 8px;
+}
+
+.hotellesmouettes__text {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 8px;
+}
+
+.hotellesmouettes__icons {
+    display: flex;
+    margin-left: 8px;
+    color: #0065FC;
+}
+
+.hotellesmouettes__icons--empty {
+    color: #DEEBFF;
 }
 
 
+/*hotel de la mer*/
+
 .accomodations__hoteldelamer {
+    display: grid;
+    grid-template-rows: 2fr 0.5fr 0.5fr 0.5fr;
     border: 3px blue solid;
-    width: 300px;
-    height: 300px;
-    background-color: aqua;
+    width: 250px;
+    height: 230px;
+    border: 0px white solid;
+    border-radius: 15px;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    margin-left: 5px;
+    box-shadow: 10px 10px 10px #aeb0b43d;
+}
+
+.accomodations__hoteldelamer:hover {
+    box-shadow: 0px 0px 10px #0065FC;
 }
 
 .hoteldelamer__image {
-    width: 300px;
-    height: 160px;
+    border: 1px #DEEBFF solid;
+    border-radius: 15px 15px 0 0;
+    width: 240px;
+    height: 130px;
+    margin-left: 2.3px;
+    margin-top: 4px;
 }
+
+.hoteldelamer__title {
+    font-size: medium;
+    font-weight: bold;
+    margin-top: 7px;
+    margin-left: 8px;
+}
+
+.hotellesmouettes__text {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 8px;
+}
+
+.hotellesmouettes__icons {
+    display: flex;
+    margin-left: 8px;
+    color: #0065FC;
+}
+
+.hotellesmouettes__icons--empty {
+    color: #DEEBFF;
+}
+
+
+/*auberge le panier*/
 
 .accomodations__aubergelepanier {
+    display: grid;
+    grid-template-rows: 2fr 0.5fr 0.5fr 0.5fr;
     border: 3px blue solid;
-    width: 300px;
-    height: 300px;
-    background-color: aqua;
+    width: 250px;
+    height: 230px;
+    border: 0px white solid;
+    border-radius: 15px;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    margin-left: 5px;
+    box-shadow: 10px 10px 10px #aeb0b43d;
 }
+.accomodations__aubergelepanier:hover {
+    box-shadow: 0px 0px 10px #0065FC;
+}
+
 
 .aubergelepanier__image {
-    width: 300px;
-    height: 300px;
+    border: 1px #DEEBFF solid;
+    border-radius: 15px 15px 0 0;
+    width: 240px;
+    height: 130px;
+    margin-left: 2.3px;
+    margin-top: 4px;
 }
 
+.aubergelepanier__title {
+    font-size: medium;
+    font-weight: bold;
+    margin-top: 7px;
+    margin-left: 8px;
+}
+
+.hoteldelamer__text {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 8px;
+}
+
+.hoteldelamer__icons {
+    display: flex;
+    margin-left: 8px;
+    color: #0065FC;
+}
+
+.hoteldelamer__icons--empty {
+    color: #DEEBFF;
+}
+
+
+/*hotel chez amina*/
+
 .accomodations__hotelchezamina {
+    display: grid;
+    grid-template-rows: 2fr 0.5fr 0.5fr 0.5fr;
     border: 3px blue solid;
-    width: 300px;
-    height: 300px;
-    background-color: aqua;
+    width: 250px;
+    height: 230px;
+    border: 0px white solid;
+    border-radius: 15px;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    margin-left: 5px;
+    box-shadow: 10px 10px 10px #aeb0b43d;
+}
+
+.accomodations__hotelchezamina:hover {
+    box-shadow: 0px 0px 10px #0065FC;
 }
 
 .hotelchezamina__image {
-    width: 300px;
-    height: 300px;
+    border: 1px #DEEBFF solid;
+    border-radius: 15px 15px 0 0;
+    width: 240px;
+    height: 130px;
+    margin-left: 2.3px;
+    margin-top: 4px;
 }
+
+.hotelchezamina__title {
+    font-size: medium;
+    font-weight: bold;
+    margin-top: 7px;
+    margin-left: 8px;
+}
+
+.hotelchezamina__text {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 8px;
+}
+
+.hotelchezamina__icons {
+    display: flex;
+    margin-left: 8px;
+    color: #0065FC;
+}
+
+.hotelchezamina__icons--empty {
+    color: #DEEBFF;
+}
+
+
