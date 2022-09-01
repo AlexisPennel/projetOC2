@@ -729,6 +729,11 @@ aside {
     font-weight: bold;
 }
 
+.header__icon {
+    font-size: 20px;
+    margin-right: 40px;
+}
+
 /*hébergements les plus populaires*/
 
 /*hotel le soleil du matin*/
@@ -739,7 +744,6 @@ aside {
     grid-template-columns: 1fr 1fr;
     width: 370px;
     height: 130px;
-    height: px;
     border: 0px white solid;
     border-radius: 15px;
     background-color: white;
@@ -830,6 +834,10 @@ aside {
     margin-bottom: 15px;
 }
 
+.aucoeurdeleau__icons--empty {
+    color: #DEEBFF;
+}
+
 /*hotel tout bleu*/
 
 .mostpopular__hoteltoutbleu {
@@ -880,4 +888,8 @@ aside {
     display: flex;
     align-items: flex-end;
     margin-bottom: 15px;
+}
+
+.hoteltoutbleu__icons--empty {
+    color: #DEEBFF;
 }
