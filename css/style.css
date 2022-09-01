@@ -347,11 +347,11 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 0.1fr 1fr 1fr 0.1fr;
-    border: 3px #DEEBFF solid;
+    border: 3px #F2F2F2 solid;
     border-radius: 15px;
-    background-color: #DEEBFF;
+    background-color: #F2F2F2;
     width: 68%;
-    height: 68%;
+    height: 650px;
 }
 
 .accomodations__title {
@@ -532,7 +532,7 @@ body {
     background-color: white;
     text-decoration: none;
     color: black;
-    margin-left: 5px;
+    margin-left: 35px;
     box-shadow: 10px 10px 10px #aeb0b43d;
 }
 
@@ -556,19 +556,19 @@ body {
     margin-left: 8px;
 }
 
-.hotellesmouettes__text {
+.hoteldelamer__text {
     margin-top: 0;
     margin-bottom: 0;
     margin-left: 8px;
 }
 
-.hotellesmouettes__icons {
+.hoteldelamer__icons {
     display: flex;
     margin-left: 8px;
     color: #0065FC;
 }
 
-.hotellesmouettes__icons--empty {
+.hoteldelamer__icons--empty {
     color: #DEEBFF;
 }
 
@@ -586,7 +586,7 @@ body {
     background-color: white;
     text-decoration: none;
     color: black;
-    margin-left: 5px;
+    margin-left: 16px;
     box-shadow: 10px 10px 10px #aeb0b43d;
 }
 .accomodations__aubergelepanier:hover {
@@ -640,7 +640,7 @@ body {
     background-color: white;
     text-decoration: none;
     color: black;
-    margin-left: 5px;
+    margin-left: 0px;
     box-shadow: 10px 10px 10px #aeb0b43d;
 }
 
@@ -680,4 +680,14 @@ body {
     color: #DEEBFF;
 }
 
+/*hébergements-afficher plus*/
+
+.accomodations__showmore {
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+    margin-left: 35px;
+    margin-bottom: 20px;
+
+}
 
