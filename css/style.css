@@ -3,12 +3,14 @@
 html,
 body {
     font-family: raleway, serif;
-    margin-left: 3%;
-    margin-right: 3%;
 }
 
 /*header*/
 
+header{
+    margin-left: 40px;
+    margin-right: 40px;
+}
 /*header <nav>*/
 
 .headernav {
@@ -115,6 +117,8 @@ body {
 
 aside {
     margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 /*filtres*/
@@ -345,6 +349,11 @@ aside {
 }
 
 /*main*/
+
+main {
+    margin-left: 40px;
+    margin-right: 40px;
+}
 
 .main__accomodations {
     display: flex;
@@ -918,6 +927,7 @@ aside {
     height: 450px;
     text-decoration: none;
     color: black;
+    margin-right: 30px;
 
 }
 
@@ -945,7 +955,7 @@ aside {
     border: 1px #DEEBFF solid;
     border-radius: 15px;
     width: 300px;
-    height: 220px;
+    height: 240px;
     text-decoration: none;
     color: black;
 }
@@ -956,7 +966,7 @@ aside {
 
 .fort__image {
     width: 300px;
-    height: 170px;
+    height: 190px;
     border: 0px #DEEBFF solid;
     border-radius: 15px 15px 0 0;
 }
@@ -970,13 +980,14 @@ aside {
 
 .activities__ile {
     grid-area: 2/2/2/2;
-    margin-top: 250px;
+    margin-top: 270px;
     border: 1px #DEEBFF solid;
     border-radius: 15px;
     width: 300px;
-    height: 200px;
+    height: 180px;
     text-decoration: none;
     color: black;
+    margin-right: 30px;
 }
 
 .activities__ile:hover {
@@ -984,7 +995,7 @@ aside {
 }
 .ile__image {
     width: 300px;
-    height: 150px;
+    height: 130px;
     border: 0px #DEEBFF solid;
     border-radius: 15px 15px 0 0;
 }
@@ -1030,7 +1041,7 @@ aside {
     border: 1px #DEEBFF solid;
     border-radius: 15px;
     width: 300px;
-    height: 220px;
+    height: 240px;
     text-decoration: none;
     color: black;
 }
@@ -1041,7 +1052,7 @@ aside {
 
 .notredame__image {
     width: 300px;
-    height: 150px;
+    height: 190px;
     border: 0px #DEEBFF solid;
     border-radius: 15px 15px 0 0;
 }
@@ -1057,11 +1068,11 @@ aside {
 .activities__parclongchamp {
     border: 1px black solid;
     grid-area: 2/4/2/4;
-    margin-top: 250px;
+    margin-top: 270px;
     border: 1px #DEEBFF solid;
     border-radius: 15px;
     width: 300px;
-    height: 200px;
+    height: 180px;
     text-decoration: none;
     color: black;
 }
@@ -1072,7 +1083,7 @@ aside {
 
 .parclongchamp__image {
     width: 300px;
-    height: 150px;
+    height: 130px;
     border: 0px #DEEBFF solid;
     border-radius: 15px 15px 0 0;
 }
@@ -1081,4 +1092,58 @@ aside {
     font-size: medium;
     margin-top: 10px;
     margin-left: 10px;
+}
+
+
+/*footer*/
+
+footer {
+    background-color: #F2F2F2;
+    display: flex;   
+    align-items: center;
+    height: 230px;
+    text-decoration: none;
+
+}
+
+/*about*/ 
+
+.footer__about {
+    margin-left: 50px;
+    color: black;
+    line-height: 200%;
+}
+
+.about__links {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: black;
+}
+
+/*accomodations*/
+
+.footer__accommodations {
+    margin-left: 200px;
+}
+
+.accommodations__links {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    line-height: 200%;
+    color: black;
+}
+
+/*assistance*/
+
+.footer__assistance {
+    margin-left: 230px;
+}
+.assistance__links {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: black;
+    line-height: 200%;
 }
