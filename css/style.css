@@ -1171,6 +1171,8 @@ footer {
 
 /*media queries*/
 
+/*ordinateurs*/
+
 @media screen and (max-width: 992px) {
 
     /*header-filters*/
@@ -1258,6 +1260,108 @@ footer {
     .footer__accommodations,
     .footer__assistance {
         margin-left: 150px;
+    }
+
+}
+
+/*Tablettes*/
+
+@media screen and (max-width: 768px) {
+
+    /*aside-filters*/
+
+    .filters {
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .filters__animals {
+        grid-area: 2/2/2/4;
+    }
+
+    /*main-accomodations*/
+
+    .main__accomodations {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .accomodations__principal {
+        width: 700px;
+    }
+
+    .accomodations__principal a {
+        width: 200px;
+        height: 220px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 15px;
+    }
+
+    .accomodations__principal img {
+        width: 190px;
+    }
+
+    /*Les plus populaires*/
+
+    .accommodations__mostpopular {
+        display: grid;
+        grid-template-rows: 0.5fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 700px;
+        height: 360px;
+        margin-left: 10px;
+        margin-right: 10px;
+        align-items: center;
+
+    }
+
+    .mostpopular__header {
+        grid-area: 1/1/1/4;
+    }
+
+    .accommodations__mostpopular a {
+        width: 200px;
+        height: 220px;
+    }
+
+    .accommodations__mostpopular img {
+        width: 190px;
+        grid-area: 1/1/1/1;
+        border-radius: 15px 15px 0 0;
+    }
+
+    .mostpopular__aucoeurdeleau,
+    .mostpopular__hotellesoleildumatin,
+    .mostpopular__hoteltoutbleu {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+
+    .aucoeurdeleau__title,
+    .hotellesoleildumatin__title,
+    .hoteltoutbleu__title {
+        grid-area: 2/1/2/1;
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+
+    .aucoeurdeleau__text,
+    .hotellesoleildumatin__text,
+    .hoteltoutbleu__text {
+        margin-bottom: 5px;
+        margin-top: 3px;
+    }
+
+    .aucoeurdeleau__title,
+    .aucoeurdeleau__text,
+    .aucoeurdeleau__icons,
+    .hotellesoleildumatin__title,
+    .hotellesoleildumatin__text,
+    .hotellesoleildumatin__icons,
+    .hoteltoutbleu__icons,
+    .hoteltoutbleu__text,
+    .hoteltoutbleu__title {
+        margin-left: 7px;
     }
 
 }
