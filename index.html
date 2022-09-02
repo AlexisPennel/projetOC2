@@ -37,7 +37,7 @@
             <form method="post" class="headersearch__form">
                 <i class="form__icon fa-solid fa-location-dot iconrecherche"></i>
                 <input type="search" placeholder="Marseille,France" class="form__searchbar searchbar__bar">
-                <input type="submit" value="Rechercher" class="form__search search__button">
+                <input type="submit" value="Rechercher" class="form__search search__button" disabled>
             </form>
         </section>
     </header>
@@ -85,7 +85,7 @@
 
 
 
-    <main class="main">
+    <main class="main" id="main">
         <div class="main__accomodations">
             <section id="hébergements" class="accomodations__principal">
                 <h2 class="principal__title">Hébergements à Marseille</h2>
@@ -106,7 +106,7 @@
                     </div>
                 </a>
 
-                <a href="#" class="accomodations__hotelduport">
+                <a href="#" class="principal__hotelduport">
                     <img src="images/hébergements/hotel_du_port.jpg"
                         alt="Image d'une chambre moderne de tons gris avec deux lits individuels,d'une fenêtre et d'une climatisation."
                         class="hotelduport__image">
@@ -121,7 +121,7 @@
                     </div>
                 </a>
 
-                <a href="#" class="accomodations__hotellesmouettes">
+                <a href="#" class="principal__hotellesmouettes">
                     <img src="images/hébergements/hotel_les_mouettes.jpg"
                         alt="Image d'une chambre moderne et luxueuse, avec un lit double confortable un grand dressing avec miroir équipé d'une planche a repasser"
                         class="hotellesmouettes__image">
@@ -136,7 +136,7 @@
                     </div>
                 </a>
 
-                <a href="#" class="accomodations__hoteldelamer">
+                <a href="#" class="principal__hoteldelamer">
                     <img src="images/hébergements/hotel_de_la_mer.jpg"
                         alt="Image d'une chambre sur le thème de la mer avec une peinture de l'océan au dessus d'un lit double confortable"
                         class="hoteldelamer__image">
@@ -151,22 +151,22 @@
                     </div>
                 </a>
 
-                <a href="#" class="accomodations__aubergelepanier">
+                <a href="#" class="principal__aubergelepanier">
                     <img src="images/hébergements/auberge_le_panier.jpg"
                         alt="Image d'un hébergement de type auberge, avec deux lits superposés en bois avec rideaux et couvertures confortables"
                         class="aubergelepanier__image">
                     <h2 class="aubergelepanier__title">Auberge le panier</h2>
-                    <p class="hoteldelamer__text">Nuit à partir de 23€</p>
-                    <div class="hoteldelamer__icons">
+                    <p class="aubergelepanier__text">Nuit à partir de 23€</p>
+                    <div class="aubergelepanier__icons">
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
-                        <i class="hoteldelamer__icons--empty fa-solid fa-star"></i>
+                        <i class="aubergelepanier__icons--empty fa-solid fa-star"></i>
                     </div>
                 </a>
 
-                <a href="#" class="accomodations__hotelchezamina">
+                <a href="#" class="principal__hotelchezamina">
                     <img src="images/hébergements/hotel_chez_amina.jpg"
                         alt="Image d'une chambre classique, lumineuse, avec deux lits doubles. Chambre équipée d'un bureau, ainsi qu'une télévision."
                         class="hotelchezamina__image">
@@ -196,7 +196,7 @@
                         alt="Image d'une chambre de ton vert avec un lit double confortable, une tête de lit en miroir et un lustre luxueux"
                         class="hotellesoleildumatin__image">
                     <h2 class="hotellesoleildumatin__title">Hôtel le soleil du matin</h2>
-                    <p>Nuit à partir de 128€</p>
+                    <p class="hotellesoleildumatin__text">Nuit à partir de 128€</p>
                     <div class="hotellesoleildumatin__icons">
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>

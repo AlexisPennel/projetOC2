@@ -7,10 +7,11 @@ body {
 
 /*header*/
 
-header{
+header {
     margin-left: 40px;
     margin-right: 40px;
 }
+
 /*header <nav>*/
 
 .headernav {
@@ -105,12 +106,15 @@ header{
     width: 130px;
     background-color: #0065FC;
     color: white;
+    font-weight: bold;
     border: 1px #0065FC solid;
     border-radius: 0 15px 15px 0;
+    cursor: pointer;
 }
 
 .search__button:hover {
-    box-shadow: 0px 0px 10px #0065FC;
+    box-shadow: 0px 0px 3px #0065FC;
+    font-size: large;
 }
 
 /*aside*/
@@ -145,6 +149,7 @@ aside {
 .filters__eco:hover {
     box-shadow: 0px 0px 10px #0065FC;
     font-size: 18px;
+    cursor: pointer;
 }
 
 .eco__icon {
@@ -155,7 +160,6 @@ aside {
     height: 40px;
     color: #0065FC;
     background-color: #DEEBFF;
-
     border-radius: 50%;
 }
 
@@ -165,6 +169,10 @@ aside {
     width: 110px;
     border: none;
     background-color: white;
+}
+
+.eco__button:hover {
+    cursor: pointer;
 }
 
 /*filtre familial*/
@@ -181,6 +189,7 @@ aside {
 .filters__family:hover {
     box-shadow: 0px 0px 10px #0065FC;
     font-size: 18px;
+    cursor: pointer;
 }
 
 .family__icon {
@@ -203,43 +212,11 @@ aside {
     background-color: white;
 }
 
-/*filtre*/
-
-.filters__eco {
-    background-color: white;
-    height: 40px;
-    width: 165px;
-    display: flex;
-    border: 1px #DEEBFF solid;
-    border-radius: 30px 30px 30px 30px;
+.family__button:hover {
+    cursor: pointer;
 }
 
-.filters__eco:hover {
-    box-shadow: 0px 0px 10px #0065FC;
-    font-size: 18px;
-}
-
-.eco__icon {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 40px;
-    height: 40px;
-    color: #0065FC;
-    background-color: #DEEBFF;
-
-    border-radius: 50%;
-}
-
-.eco__button {
-    font-weight: bold;
-    height: 40px;
-    width: 110px;
-    border: none;
-    background-color: white;
-}
-
-/*filtre familial*/
+/*filtre Romantique*/
 
 .filters__romantic {
     background-color: white;
@@ -253,6 +230,7 @@ aside {
 .filters__romantic:hover {
     box-shadow: 0px 0px 10px #0065FC;
     font-size: 18px;
+    cursor: pointer;
 }
 
 .romantic__icon {
@@ -275,6 +253,10 @@ aside {
     background-color: white;
 }
 
+.romantic__button:hover {
+    cursor: pointer;
+}
+
 /*filtre animaux*/
 
 .filters__animals {
@@ -289,8 +271,8 @@ aside {
 .filters__animals:hover {
     box-shadow: 0px 0px 10px #0065FC;
     font-size: 18px;
+    cursor: pointer;
 }
-
 
 .animals__icon {
     display: flex;
@@ -303,7 +285,6 @@ aside {
     border-radius: 50%;
 }
 
-
 .animals__button {
     font-weight: bold;
     height: 40px;
@@ -312,6 +293,9 @@ aside {
     background-color: white;
 }
 
+.animals__button:hover {
+    cursor: pointer;
+}
 
 /*informations*/
 
@@ -341,7 +325,6 @@ aside {
 .fa-circle-info {
     color: white;
     font-size: 20px;
-
 }
 
 .info__text {
@@ -407,6 +390,7 @@ main {
     height: 120px;
     margin-left: 5px;
     margin-top: 5px;
+    object-fit: cover;
 }
 
 .aubergelacannebière__title {
@@ -436,7 +420,7 @@ main {
 
 /*hotel du port*/
 
-.accomodations__hotelduport {
+.principal__hotelduport {
     display: grid;
     grid-template-rows: 2fr 0.5fr 0.5fr 0.5fr;
     border: 3px blue solid;
@@ -452,7 +436,7 @@ main {
     box-shadow: 10px 10px 10px #aeb0b43d;
 }
 
-.accomodations__hotelduport:hover {
+.principal__hotelduport:hover {
     box-shadow: 0px 0px 10px #0065FC;
 }
 
@@ -463,6 +447,7 @@ main {
     height: 120px;
     margin-left: 5px;
     margin-top: 5px;
+    object-fit: cover;
 }
 
 .hotelduport__title {
@@ -488,7 +473,7 @@ main {
 
 /*hotel les mouettes*/
 
-.accomodations__hotellesmouettes {
+.principal__hotellesmouettes {
     display: grid;
     grid-template-rows: 2fr 0.5fr 0.5fr 0.5fr;
     border: 3px blue solid;
@@ -504,7 +489,7 @@ main {
     box-shadow: 10px 10px 10px #aeb0b43d;
 }
 
-.accomodations__hotellesmouettes:hover {
+.principal__hotellesmouettes:hover {
     box-shadow: 0px 0px 10px #0065FC;
 }
 
@@ -515,6 +500,7 @@ main {
     height: 120px;
     margin-left: 5px;
     margin-top: 5px;
+    object-fit: cover;
 }
 
 .hotellesmouettes__title {
@@ -544,7 +530,7 @@ main {
 
 /*hotel de la mer*/
 
-.accomodations__hoteldelamer {
+.principal__hoteldelamer {
     display: grid;
     grid-template-rows: 2fr 0.5fr 0.5fr 0.5fr;
     border: 3px blue solid;
@@ -559,7 +545,7 @@ main {
     box-shadow: 10px 10px 10px #aeb0b43d;
 }
 
-.accomodations__hoteldelamer:hover {
+.principal__hoteldelamer:hover {
     box-shadow: 0px 0px 10px #0065FC;
 }
 
@@ -570,6 +556,7 @@ main {
     height: 120px;
     margin-left: 5px;
     margin-top: 5px;
+    object-fit: cover;
 }
 
 .hoteldelamer__title {
@@ -599,7 +586,7 @@ main {
 
 /*auberge le panier*/
 
-.accomodations__aubergelepanier {
+.principal__aubergelepanier {
     display: grid;
     grid-template-rows: 2fr 0.5fr 0.5fr 0.5fr;
     border: 3px blue solid;
@@ -614,7 +601,7 @@ main {
     box-shadow: 10px 10px 10px #aeb0b43d;
 }
 
-.accomodations__aubergelepanier:hover {
+.principal__aubergelepanier:hover {
     box-shadow: 0px 0px 10px #0065FC;
 }
 
@@ -626,6 +613,7 @@ main {
     height: 120px;
     margin-left: 5px;
     margin-top: 5px;
+    object-fit: cover;
 }
 
 .aubergelepanier__title {
@@ -636,26 +624,26 @@ main {
     margin-bottom: 5px;
 }
 
-.hoteldelamer__text {
+.aubergelepanier__text {
     margin-top: 0;
     margin-bottom: 0;
     margin-left: 8px;
 }
 
-.hoteldelamer__icons {
+.aubergelepanier__icons {
     display: flex;
     margin-left: 8px;
     color: #0065FC;
 }
 
-.hoteldelamer__icons--empty {
+.aubergelepanier__icons--empty {
     color: #DEEBFF;
 }
 
 
 /*hotel chez amina*/
 
-.accomodations__hotelchezamina {
+.principal__hotelchezamina {
     display: grid;
     grid-template-rows: 2fr 0.5fr 0.5fr 0.5fr;
     width: 230px;
@@ -670,7 +658,7 @@ main {
     box-shadow: 10px 10px 10px #aeb0b43d;
 }
 
-.accomodations__hotelchezamina:hover {
+.principal__hotelchezamina:hover {
     box-shadow: 0px 0px 10px #0065FC;
 }
 
@@ -681,6 +669,7 @@ main {
     height: 120px;
     margin-left: 5px;
     margin-top: 5px;
+    object-fit: cover;
 }
 
 .hotelchezamina__title {
@@ -717,6 +706,10 @@ main {
     margin-bottom: 20px;
 }
 
+.accomodations__showmore:hover {
+    color: #0065FC;
+}
+
 /*Section Les plus populaires*/
 
 .accommodations__mostpopular {
@@ -750,7 +743,7 @@ main {
 .mostpopular__hotellesoleildumatin {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1.2fr;
     width: 370px;
     height: 130px;
     border: 0px white solid;
@@ -775,6 +768,7 @@ main {
     border-radius: 15px 0 0 15px;
     margin-top: 5px;
     margin-left: 5px;
+    object-fit: cover;
 }
 
 .hotellesoleildumatin__title {
@@ -795,7 +789,7 @@ main {
 .mostpopular__aucoeurdeleau {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1.2fr;
     width: 370px;
     height: 130px;
     border: 0px white solid;
@@ -821,6 +815,7 @@ main {
     border-radius: 15px 0 0 15px;
     margin-top: 5px;
     margin-left: 5px;
+    object-fit: cover;
 }
 
 .aucoeurdeleau__title {
@@ -851,7 +846,7 @@ main {
 .mostpopular__hoteltoutbleu {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1.2fr;
     width: 370px;
     height: 130px;
     border: 0px white solid;
@@ -875,6 +870,7 @@ main {
     border-radius: 15px 0 0 15px;
     margin-top: 5px;
     margin-left: 5px;
+    object-fit: cover;
 }
 
 .hoteltoutbleu__title {
@@ -882,6 +878,7 @@ main {
     font-weight: bold;
     grid-area: 1/2/1/2;
     margin-bottom: 10px;
+    margin-right: 15px;
 }
 
 .hoteltoutbleu__text {
@@ -940,6 +937,7 @@ main {
     height: 400px;
     border: 0px #DEEBFF solid;
     border-radius: 15px 15px 0 0;
+    object-fit: cover;
 }
 
 .vieuxport__title {
@@ -969,6 +967,7 @@ main {
     height: 190px;
     border: 0px #DEEBFF solid;
     border-radius: 15px 15px 0 0;
+    object-fit: cover;
 }
 
 .fort__title {
@@ -976,6 +975,7 @@ main {
     margin-top: 10px;
     margin-left: 10px;
 }
+
 /*Ile du frioul*/
 
 .activities__ile {
@@ -993,11 +993,13 @@ main {
 .activities__ile:hover {
     box-shadow: 0px 0px 10px #0065FC;
 }
+
 .ile__image {
     width: 300px;
     height: 130px;
     border: 0px #DEEBFF solid;
     border-radius: 15px 15px 0 0;
+    object-fit: cover;
 }
 
 .ile__title {
@@ -1005,6 +1007,7 @@ main {
     margin-top: 10px;
     margin-left: 10px;
 }
+
 /*Parc national des calanques*/
 
 .activities__parcnational {
@@ -1026,6 +1029,7 @@ main {
     height: 400px;
     border: 0px #DEEBFF solid;
     border-radius: 15px 15px 0 0;
+    object-fit: cover;
 }
 
 .parcnational__title {
@@ -1055,6 +1059,7 @@ main {
     height: 190px;
     border: 0px #DEEBFF solid;
     border-radius: 15px 15px 0 0;
+    object-fit: cover;
 }
 
 .notredame__title {
@@ -1077,7 +1082,7 @@ main {
     color: black;
 }
 
-.activities__parclongchamp:hover{
+.activities__parclongchamp:hover {
     box-shadow: 0px 0px 10px #0065FC;
 }
 
@@ -1086,9 +1091,10 @@ main {
     height: 130px;
     border: 0px #DEEBFF solid;
     border-radius: 15px 15px 0 0;
+    object-fit: cover;
 }
 
-.parclongchamp__title{
+.parclongchamp__title {
     font-size: medium;
     margin-top: 10px;
     margin-left: 10px;
@@ -1099,14 +1105,14 @@ main {
 
 footer {
     background-color: #F2F2F2;
-    display: flex;   
+    display: flex;
     align-items: center;
     height: 230px;
     text-decoration: none;
 
 }
 
-/*about*/ 
+/*about*/
 
 .footer__about {
     margin-left: 50px;
@@ -1150,6 +1156,7 @@ footer {
     margin-left: 230px;
     margin-bottom: 40px;
 }
+
 .assistance__links {
     display: flex;
     flex-direction: column;
@@ -1159,5 +1166,98 @@ footer {
 }
 
 .assistance__links:hover {
-color: #0065FC;
+    color: #0065FC;
+}
+
+/*media queries*/
+
+@media screen and (max-width: 992px) {
+
+    /*header-filters*/
+
+    .filters__eco,
+    .filters__family,
+    .filters__romantic,
+    .filters__animals {
+        margin-left: 20px;
+    }
+
+    main {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    /*hébergements à Marseille*/
+
+    .accomodations__principal {
+        width: 594px;
+    }
+
+    .accomodations__principal a {
+        width: 170px;
+        height: 220px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 15px;
+    }
+
+    .accomodations__principal img {
+        width: 160px;
+    }
+
+    /*Les plus populaires*/
+
+    .accommodations__mostpopular {
+        width: 350px;
+        margin-left: 15px;
+    }
+
+    .accommodations__mostpopular a {
+        width: 320px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .accommodations__mostpopular img {
+        width: 120px;
+    }
+
+    .hotellesoleildumatin__text {
+        margin-top: 5px;
+    }
+
+    /*activités*/
+
+    .main__activities {
+        width: 992px;
+    }
+
+    .activities__vieuxport,
+    .activities__parcnational,
+    .vieuxport__image,
+    .parcnational__image {
+        width: 220px;
+        margin-right: 10px;
+
+    }
+
+    .activities__fort,
+    .activities__ile,
+    .activities__notredame,
+    .activities__parclongchamp,
+    .fort__image,
+    .ile__image,
+    .notredame__image,
+    .parclongchamp__image {
+        width: 220px;
+        margin-right: 10px;
+    }
+
+    /*footer*/
+
+    .footer__accommodations,
+    .footer__assistance {
+        margin-left: 150px;
+    }
+
 }
