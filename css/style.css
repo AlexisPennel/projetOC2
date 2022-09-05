@@ -1433,22 +1433,115 @@ footer {
 
 /*smartphones*/
 
-@media all and (min-width: 0px) and (max-width:768px){
+@media all and (min-width: 0px) and (max-width:768px) {
 
-p {
-    color: red;
-}
-/*header*/
+    /*header*/
 
-.headernav {
-    flex-direction: column;
-}
+    header {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
 
-.headernav__logo{
-    align-self: center;
-}
+    /*nav*/
 
-.headernav__nav {
-    align-self: center;
-}
+    .headernav {
+        flex-direction: column;
+    }
+
+    .headernav__logo {
+        align-self: center;
+        margin-right: 0px;
+        margin-right: 80px;
+        margin-bottom: 20px;
+    }
+
+    .headernav__nav {
+        width: 375px;
+        align-self: center;
+        margin-left: 0;
+    }
+
+    .nav__link1 {
+        width: 187.5px;
+        border-bottom: 3px #F2F2F2 solid;
+        padding-bottom: 5px;
+        margin-right: 0px;
+    }
+
+    .nav__link1:hover {
+        border-top: none;
+        border-bottom: 3px #0065FC solid;
+        padding-bottom: 5px;
+    }
+
+    .nav__link2 {
+        width: 187.5px;
+        border-bottom: 3px #F2F2F2 solid;
+        padding-bottom: 5px;
+    }
+
+    .nav__link2:hover {
+        border-top: none;
+        border-bottom: 3px #0065FC solid;
+        padding-bottom: 5px;
+    }
+
+    /*title*/
+
+    .headersearch h1 {
+        font-size: 25px;
+        margin-top: 30px;
+        margin-left: 15px;
+        margin-right: 10px;
+    }
+
+    .headersearch p {
+        margin-left: 15px;
+    }
+
+    /*form*/
+
+    .headersearch__form {
+        width: 355px;
+        margin-right: 10px;
+        margin-left: 10px;
+        justify-content: center;
+
+    }
+
+    .form__searchbar {
+        width: 225px;
+    }
+
+
+    .form__search--smartphone {
+        display: flex;
+        align-items: center;
+        background-color: #0065FC;
+        width: 50px;
+        height: 50px;
+        border-radius: 15px;
+        font-size: 20px;
+        justify-content: center;
+
+    }
+
+    .form__search p {
+        visibility: hidden;
+        width: 0px;
+        height: 0px;
+        margin-left: 0px;
+    }
+
+    .form__search:hover {
+        font-size: 25px;
+    }
+
+    .form__searchbarandbutton {
+        display: flex;
+        border: 1px #DEEBFF solid;
+        border-radius: 0 15px 15px 0;
+    }
+
+
 }

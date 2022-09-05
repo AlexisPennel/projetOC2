@@ -36,8 +36,15 @@
 
             <form method="post" class="headersearch__form">
                 <i class="form__icon fa-solid fa-location-dot iconrecherche"></i>
-                <input type="search" placeholder="Marseille,France" class="form__searchbar searchbar__bar">
-                <input type="submit" value="Rechercher" class="form__search search__button" disabled>
+                <div class="form__searchbarandbutton">
+                    <input type="search" placeholder="Marseille,France" class="form__searchbar searchbar__bar">
+                    <button class="form__search search__button form__search--smartphone" disabled>
+                        <p>Rechercher</p>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </div>
+                </input>
+
             </form>
         </section>
     </header>
@@ -299,8 +306,8 @@
 
         <section class="footer__assistance">
             <h3>Assistance</h3>
-                <a href="#" class="assistance__links">Centre d'aide</a>
-                <a href="#" class="assistance__links">Nous contacter</a>
+            <a href="#" class="assistance__links">Centre d'aide</a>
+            <a href="#" class="assistance__links">Nous contacter</a>
         </section>
     </footer>
 </body>
