@@ -12,11 +12,10 @@ header {
     margin-right: 40px;
 }
 
-/*header <nav>*/
+/*header nav*/
 
 .headernav {
     display: flex;
-    justify-content: space-around;
 }
 
 .headernav__logo {
@@ -70,8 +69,6 @@ header {
 
 .headersearch__form {
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
 }
 
 .form__icon {
@@ -145,7 +142,6 @@ aside {
 
 .filters {
     margin-right: 30%;
-    margin-top: 15px;
     display: grid;
     grid-template-columns: 0.5fr 1fr 1fr 1fr 1fr;
     align-items: center;
@@ -216,7 +212,6 @@ aside {
     height: 40px;
     color: #0065FC;
     background-color: #DEEBFF;
-
     border-radius: 50%;
 }
 
