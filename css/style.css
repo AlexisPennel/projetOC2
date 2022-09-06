@@ -1056,7 +1056,7 @@ footer {
     .main__accomodations {
         flex-direction: column-reverse;
     }
-    
+
     .accommodations__mostpopular {
         display: flex;
         flex-direction: column;
