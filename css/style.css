@@ -459,7 +459,6 @@ main {
     margin-bottom: 25px;
 }
 
-
 /*hotel tout bleu*/
 
 .hoteltoutbleu__title {
@@ -497,7 +496,6 @@ main {
 .activities__title {
     margin-left: 8px;
     grid-area: 1/1/1/4;
-
 }
 
 .activities__image {
@@ -542,7 +540,6 @@ main {
     text-decoration: none;
     color: black;
     margin-right: 17px;
-
 }
 
 .activities__vieuxport:hover {
@@ -642,7 +639,6 @@ footer {
     align-items: center;
     height: 230px;
     text-decoration: none;
-
 }
 
 /*about*/
@@ -759,7 +755,6 @@ footer {
         width: 190px;
     }
 
-
     #showmore {
         margin-left: 23px;
         margin-top: 10px;
@@ -776,7 +771,6 @@ footer {
         margin-left: 10px;
         margin-right: 10px;
         align-items: center;
-
     }
 
     .mostpopular__header {
@@ -797,7 +791,6 @@ footer {
         width: 190px;
         border-radius: 15px 15px 0 0;
     }
-
 
     .aucoeurdeleau__title,
     .hotellesoleildumatin__title,
@@ -941,7 +934,6 @@ footer {
         margin-right: 10px;
         margin-left: 10px;
         justify-content: center;
-
     }
 
     .form__searchbar {
@@ -990,7 +982,6 @@ footer {
         width: 50px;
         height: 50px;
         margin-top: 27px;
-
     }
 
     .form__icon {
@@ -1074,7 +1065,6 @@ footer {
     .mostpopular__image {
         width: 140px;
     }
-
 
     /*hébergements à Marseille*/
 
