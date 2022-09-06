@@ -140,6 +140,8 @@ aside {
 
 /*filtres*/
 
+/*filter box*/
+
 .filters {
     margin-right: 30%;
     display: grid;
@@ -147,9 +149,7 @@ aside {
     align-items: center;
 }
 
-/*filtre économique*/
-
-.filters__eco {
+.filters__box {
     background-color: white;
     height: 40px;
     width: 165px;
@@ -158,119 +158,7 @@ aside {
     border-radius: 30px 30px 30px 30px;
 }
 
-.filters__eco:hover {
-    box-shadow: 0px 0px 10px #0065FC;
-    font-size: 18px;
-    cursor: pointer;
-}
-
-.eco__icon {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 40px;
-    height: 40px;
-    color: #0065FC;
-    background-color: #DEEBFF;
-    border-radius: 50%;
-}
-
-.eco__button {
-    font-weight: bold;
-    height: 40px;
-    width: 110px;
-    border: none;
-    background-color: white;
-}
-
-.eco__button:hover {
-    cursor: pointer;
-}
-
-/*filtre familial*/
-
-.filters__family {
-    background-color: white;
-    height: 40px;
-    width: 165px;
-    display: flex;
-    border: 1px #DEEBFF solid;
-    border-radius: 30px 30px 30px 30px;
-}
-
-.filters__family:hover {
-    box-shadow: 0px 0px 10px #0065FC;
-    font-size: 18px;
-    cursor: pointer;
-}
-
-.family__icon {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 40px;
-    height: 40px;
-    color: #0065FC;
-    background-color: #DEEBFF;
-    border-radius: 50%;
-}
-
-.family__button {
-    font-weight: bold;
-    height: 40px;
-    width: 110px;
-    border: none;
-    background-color: white;
-}
-
-.family__button:hover {
-    cursor: pointer;
-}
-
-/*filtre Romantique*/
-
-.filters__romantic {
-    background-color: white;
-    height: 40px;
-    width: 165px;
-    display: flex;
-    border: 1px #DEEBFF solid;
-    border-radius: 30px 30px 30px 30px;
-}
-
-.filters__romantic:hover {
-    box-shadow: 0px 0px 10px #0065FC;
-    font-size: 18px;
-    cursor: pointer;
-}
-
-.romantic__icon {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 40px;
-    height: 40px;
-    color: #0065FC;
-    background-color: #DEEBFF;
-
-    border-radius: 50%;
-}
-
-.romantic__button {
-    font-weight: bold;
-    height: 40px;
-    width: 110px;
-    border: none;
-    background-color: white;
-}
-
-.romantic__button:hover {
-    cursor: pointer;
-}
-
-/*filtre animaux*/
-
-.filters__animals {
+.filters__box--animals {
     background-color: white;
     height: 40px;
     width: 225px;
@@ -279,13 +167,21 @@ aside {
     border-radius: 30px 30px 30px 30px;
 }
 
-.filters__animals:hover {
+.filters__box:hover {
     box-shadow: 0px 0px 10px #0065FC;
     font-size: 18px;
     cursor: pointer;
 }
 
-.animals__icon {
+.filters__box--animals:hover {
+    box-shadow: 0px 0px 10px #0065FC;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+/*filters-icon*/
+
+.filters__icon {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -296,7 +192,17 @@ aside {
     border-radius: 50%;
 }
 
-.animals__button {
+/*filters button*/
+
+.filters__button {
+    font-weight: bold;
+    height: 40px;
+    width: 110px;
+    border: none;
+    background-color: white;
+}
+
+.filters__button--animals {
     font-weight: bold;
     height: 40px;
     width: 170px;
@@ -304,7 +210,11 @@ aside {
     background-color: white;
 }
 
-.animals__button:hover {
+.filters__button:hover {
+    cursor: pointer;
+}
+
+.filters__button--animals:hover {
     cursor: pointer;
 }
 
@@ -1182,102 +1092,9 @@ footer {
 
 /*media queries*/
 
-/*ordinateurs*/
-
-@media screen and (max-width: 992px) {
-
-    /*header-filters*/
-
-    .filters__eco,
-    .filters__family,
-    .filters__romantic,
-    .filters__animals {
-        margin-left: 20px;
-    }
-
-    main {
-        margin-left: 15px;
-        margin-right: 15px;
-    }
-
-    /*hébergements à Marseille*/
-
-    .accomodations__principal {
-        width: 594px;
-    }
-
-    .accomodations__principal a {
-        width: 170px;
-        height: 220px;
-        margin-left: 10px;
-        margin-right: 10px;
-        margin-bottom: 15px;
-    }
-
-    .accomodations__principal img {
-        width: 160px;
-    }
-
-    /*Les plus populaires*/
-
-    .accommodations__mostpopular {
-        width: 350px;
-        margin-left: 15px;
-    }
-
-    .accommodations__mostpopular a {
-        width: 320px;
-        margin-left: 15px;
-        margin-right: 15px;
-    }
-
-    .accommodations__mostpopular img {
-        width: 120px;
-    }
-
-    .hotellesoleildumatin__text {
-        margin-top: 5px;
-    }
-
-    /*activités*/
-
-    .main__activities {
-        width: 992px;
-    }
-
-    .activities__vieuxport,
-    .activities__parcnational,
-    .vieuxport__image,
-    .parcnational__image {
-        width: 220px;
-        margin-right: 10px;
-
-    }
-
-    .activities__fort,
-    .activities__ile,
-    .activities__notredame,
-    .activities__parclongchamp,
-    .fort__image,
-    .ile__image,
-    .notredame__image,
-    .parclongchamp__image {
-        width: 220px;
-        margin-right: 10px;
-    }
-
-    /*footer*/
-
-    .footer__accommodations,
-    .footer__assistance {
-        margin-left: 150px;
-    }
-
-}
-
 /*Tablettes*/
 
-@media all and (min-width: 768px) and (max-width:991px) {
+@media all and (min-width: 768px) and (max-width:992px) {
 
     /*header*/
 
@@ -1300,14 +1117,12 @@ footer {
         grid-template-rows: 1fr 1fr;
     }
 
-    .filters__eco,
-    .filters__family,
-    .filters__romantic,
-    .filters__animals {
+    .filters__box,
+    .filters__box--animals {
         margin-left: 20px;
     }
 
-    .filters__animals {
+    .filters__box--animals {
         grid-area: 2/2/2/4;
     }
 
@@ -1406,7 +1221,7 @@ footer {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 0.1fr 1fr 1fr;
         height: 1100px;
-        margin-left: 15px;
+        margin-left: 0px;
         width: 768px;
     }
 
@@ -1416,6 +1231,7 @@ footer {
 
     .activities__vieuxport {
         grid-area: 2/1/2/1;
+        margin-right: 20px;
     }
 
     .activities__parcnational {
