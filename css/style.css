@@ -771,8 +771,8 @@ footer {
         display: grid;
         grid-template-rows: 0.5fr 1fr;
         grid-template-columns: 1fr 1fr 1fr;
-        width: 700px;
-        height: 360px;
+        width: 688px;
+        height: 350px;
         margin-left: 10px;
         margin-right: 10px;
         align-items: center;
@@ -784,30 +784,24 @@ footer {
         grid-area: 1/1/1/4;
     }
 
-    .accommodations__mostpopular a {
+    .mostpopular__box {
+        display: flex;
+        flex-direction: column;
         width: 200px;
         height: 220px;
         margin-left: 15px;
         margin-right: 10px;
     }
 
-    .accommodations__mostpopular img {
+    .mostpopular__image {
         width: 190px;
-        grid-area: 1/1/1/1;
         border-radius: 15px 15px 0 0;
     }
 
-    .mostpopular__aucoeurdeleau,
-    .mostpopular__hotellesoleildumatin,
-    .mostpopular__hoteltoutbleu {
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
-    }
-
+    
     .aucoeurdeleau__title,
     .hotellesoleildumatin__title,
     .hoteltoutbleu__title {
-        grid-area: 2/1/2/1;
         margin-bottom: 5px;
         margin-top: 5px;
     }
