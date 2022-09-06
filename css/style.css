@@ -746,23 +746,23 @@ footer {
     }
 
     .accomodations__principal {
-        width: 700px;
+        width: 688px;
+        height: 600px;
     }
 
-    .accomodations__principal a {
+    .principal__accommodations {
         width: 200px;
         height: 220px;
-        margin-left: 10px;
-        margin-right: 10px;
-        margin-bottom: 15px;
     }
 
-    .accomodations__principal img {
+    .accommodations__image {
         width: 190px;
     }
 
+
     #showmore {
-        margin-left: 20px;
+        margin-left: 23px;
+        margin-top: 10px;
     }
 
     /*Les plus populaires*/
