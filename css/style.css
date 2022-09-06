@@ -279,7 +279,7 @@ main {
 
 .principal__title {
     grid-column: 1/4;
-    margin-left: 18px;
+    margin-left: 23px;
     font-weight: bold;
 }
 
@@ -623,7 +623,7 @@ main {
     text-decoration: none;
     color: black;
     font-weight: bold;
-    margin-left: 18px;
+    margin-left: 23px;
     margin-bottom: 20px;
 }
 
@@ -648,7 +648,7 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 37px;
+    margin-left: 40px;
     font-weight: bold;
 }
 
@@ -831,6 +831,7 @@ main {
 }
 
 .activities__title {
+    margin-left: 8px;
     grid-area: 1/1/1/4;
 
 }
@@ -1149,6 +1150,10 @@ footer {
         width: 190px;
     }
 
+    #showmore {
+        margin-left: 20px;
+    }
+
     /*Les plus populaires*/
 
     .accommodations__mostpopular {
@@ -1164,6 +1169,7 @@ footer {
     }
 
     .mostpopular__header {
+        margin-left: 20px;
         grid-area: 1/1/1/4;
     }
 
@@ -1459,6 +1465,10 @@ footer {
     }
 
     /*les plus populaires*/
+
+    .mostpopular__header{
+        margin-left: 20px;
+    }
 
     .main__accomodations {
         flex-direction: column-reverse;
