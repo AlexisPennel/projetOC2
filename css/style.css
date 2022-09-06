@@ -1068,6 +1068,7 @@ footer {
 
     .mostpopular__box {
         width: 350px;
+        margin-right: 6px;
     }
 
     .mostpopular__image {
