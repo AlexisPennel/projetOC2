@@ -259,13 +259,13 @@ main {
     margin-right: 40px;
 }
 
-.main__accomodations {
+.main__accommodations {
     display: flex;
 }
 
 /*hébergement à Marseille*/
 
-.accomodations__principal {
+.accommodations__principal {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 0.1fr 1fr 1fr 0.1fr;
@@ -342,7 +342,7 @@ main {
 
 /*hébergements-afficher plus*/
 
-.accomodations__showmore {
+.accommodations__showmore {
     justify-self: flex-start;
     text-decoration: none;
     color: black;
@@ -458,6 +458,7 @@ main {
     align-items: flex-end;
     margin-bottom: 25px;
 }
+
 
 /*hotel tout bleu*/
 
@@ -734,14 +735,14 @@ footer {
         grid-area: 2/2/2/4;
     }
 
-    /*main-accomodations*/
+    /*main-accommodations*/
 
-    .main__accomodations {
+    .main__accommodations {
         flex-direction: column;
         align-items: center;
     }
 
-    .accomodations__principal {
+    .accommodations__principal {
         width: 688px;
         height: 600px;
     }
@@ -1044,7 +1045,7 @@ footer {
         margin-left: 60px;
     }
 
-    .main__accomodations {
+    .main__accommodations {
         flex-direction: column-reverse;
     }
 
@@ -1068,7 +1069,7 @@ footer {
 
     /*hébergements à Marseille*/
 
-    .accomodations__principal {
+    .accommodations__principal {
         height: 1500px;
         width: 375px;
         background-color: white;
@@ -1077,14 +1078,14 @@ footer {
         flex-direction: column;
     }
 
-    .accomodations__principal a {
+    .accommodations__principal a {
         width: 350px;
         margin-left: 10px;
         margin-bottom: 8px;
         margin-top: 9px;
     }
 
-    .accomodations__principal a img {
+    .accommodations__principal a img {
         width: 335px;
         margin-left: 6px;
     }
