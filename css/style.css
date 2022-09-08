@@ -18,11 +18,17 @@ header {
 
 .headernav {
     display: flex;
+    height: 20%;
 }
 
 .headernav__logo {
     width: 10%;
+    height: auto;
     margin-right: 40%;
+}
+
+.headernav__logo img {
+    height: 100%;
 }
 
 .headernav__nav {
