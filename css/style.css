@@ -157,7 +157,7 @@ aside {
 
 .filters__box {
     background-color: white;
-    height: 2.5em;
+    height: 3em;
     width: 10.3em;
     display: flex;
     border: 1px #DEEBFF solid;
@@ -167,7 +167,7 @@ aside {
 
 .filters__box--animals {
     background-color: white;
-    height: 2.5em;
+    height: 3em;
     width: 14.06em;
     display: flex;
     border: 2px #DEEBFF solid;
@@ -191,8 +191,8 @@ aside {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 40px;
-    height: 40px;
+    width:3em;
+    height: 3em;
     color: #0065FC;
     background-color: #DEEBFF;
     border-radius: 50%;
@@ -201,19 +201,22 @@ aside {
 /*filters button*/
 
 .filters__button {
+    align-items: center;
     font-weight: bold;
-    height: 40px;
-    width: 110px;
+    height: auto;
+    width: 2em;
     border: none;
     background-color: white;
+    margin-left: 0.2em;
 }
 
 .filters__button--animals {
     font-weight: bold;
-    height: 40px;
-    width: 170px;
+    height: auto;
+    width: auto;
     border: none;
     background-color: white;
+    margin-left: 0.2em;
 }
 
 .filters__button:hover {
@@ -222,6 +225,10 @@ aside {
 
 .filters__button--animals:hover {
     cursor: pointer;
+}
+
+.filters__button--family {
+    margin-left: 0.8em;
 }
 
 /*informations*/
