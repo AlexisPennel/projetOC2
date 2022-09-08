@@ -10,8 +10,8 @@ body {
 /*header*/
 
 header {
-    margin-left: 2%;
-    margin-right: 2%;
+    margin-left: 2.7%;
+    margin-right: 2.7%;
 }
 
 /*header nav*/
@@ -73,13 +73,14 @@ header {
 
 .headersearch__form {
     display: flex;
+    margin-top: 1.5%;
 }
 
 .form__icon {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 2.6em;
+    height: auto;
     width: 2.6em;
     background-color: #F2F2F2;
     border: 0px #F2F2F2 solid;
@@ -138,9 +139,9 @@ header {
 /*aside*/
 
 aside {
-    margin-top: 30px;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-top: 2%;
+    margin-left: 2.7%;
+    margin-right: 2.7%;
 }
 
 /*filtres*/
@@ -260,12 +261,15 @@ aside {
 /*main*/
 
 main {
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 2.7%;
+    margin-right: 2.7%;
+    margin-top: 1%;
+    height: auto;
 }
 
 .main__accommodations {
     display: flex;
+    height: 50em;
 }
 
 /*hébergement à Marseille*/
@@ -277,9 +281,8 @@ main {
     border: 3px #F2F2F2 solid;
     border-radius: 15px;
     background-color: #F2F2F2;
-    width: 762px;
-    height: 570px;
-    margin-top: 20px;
+    width: 70%;
+    height:auto;
     align-content: center;
     justify-items: center;
 }
@@ -370,9 +373,9 @@ main {
     background-color: #F2F2F2;
     border: 3px #F2F2F2 solid;
     border-radius: 15px;
-    margin-left: 40px;
-    margin-top: 20px;
-    width: 450px;
+    margin-left: 2.7em;
+    width: 30%;
+    height: auto;
 }
 
 /*header*/
