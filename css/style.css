@@ -441,7 +441,7 @@ main {
 }
 
 .mostpopular__image {
-    width: 11em;
+    width: 90%;
     height: 93%;
     grid-area: 1/1/4/1;
     border: 0px white solid;
