@@ -92,7 +92,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    height:auto;
+    height: auto;
     width: auto;
     border: 0.5px #DEEBFF solid;
 }
@@ -126,7 +126,7 @@ header {
 }
 
 .search__button:hover {
-    width:9em;
+    width: 9em;
     box-shadow: 0px 0px 5px #0065FC;
 }
 
@@ -279,19 +279,22 @@ main {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 0.1fr 1fr 1fr 0.1fr;
     border: 3px #F2F2F2 solid;
-    border-radius: 15px;
+    border-radius: 30px;
     background-color: #F2F2F2;
     width: 70%;
-    height:auto;
+    height: auto;
     align-content: center;
     justify-items: center;
 }
 
 .principal__title {
     grid-column: 1/4;
-    margin-left: 23px;
+    margin-left: 6%;
+    margin-top: 4%;
+    margin-bottom: 0.5%;
     justify-self: flex-start;
     font-weight: bold;
+    font-size: x-large;
 }
 
 /*hébergements-box*/
@@ -300,14 +303,15 @@ main {
     display: grid;
     grid-template-rows: 2fr 0.5fr 0.5fr 0.5fr;
     border: 3px blue solid;
-    width: 230px;
-    height: 210px;
+    width: 80%;
+    height: 80%;
     border: 0px white solid;
-    border-radius: 15px;
+    border-radius: 30px;
     background-color: white;
     text-decoration: none;
     color: black;
     box-shadow: 10px 10px 10px #aeb0b43d;
+    margin-top: 5%;
 }
 
 .principal__accommodations:hover {
@@ -316,36 +320,44 @@ main {
 
 .accommodations__image {
     border: 1px #DEEBFF solid;
-    border-radius: 15px 15px 0 0;
-    width: 218px;
-    height: 120px;
-    margin-left: 5px;
-    margin-top: 5px;
+    border-radius: 30px 30px 0 0;
+    width: 96%;
+    height: 10em;
+    margin-left: 0.3em;
+    margin-top: 0.3em;
     object-fit: cover;
 }
 
 .accommodations__title {
-    font-size: medium;
+    font-size: large;
     font-weight: bold;
-    margin-top: 7px;
-    margin-left: 8px;
-    margin-bottom: 5px;
+    margin-top: 0.4em;
+    margin-left: 1em;
+    margin-bottom: 0.3em;
 }
 
 .accommodations__text {
     margin-top: 0;
     margin-bottom: 0;
-    margin-left: 8px;
+    margin-left: 1em;
 }
 
 .accommodations__icons {
     display: flex;
-    margin-left: 8px;
+    margin-left: 1em;
     color: #0065FC;
 }
 
 .accommodations__icons--empty {
     color: #DEEBFF;
+}
+
+.principal__accommodations--marginleft {
+    margin-left: 10%;
+}
+
+.principal__accommodation--marginright {
+    margin-right: 10%;
 }
 
 /*hébergements-afficher plus*/
@@ -355,8 +367,9 @@ main {
     text-decoration: none;
     color: black;
     font-weight: bold;
-    margin-left: 23px;
-    margin-bottom: 20px;
+    font-size: x-large;
+    margin-left: 17%;
+    margin-bottom: 10%;
 }
 
 .accommodations__showmore:hover {
