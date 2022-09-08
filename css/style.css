@@ -41,6 +41,7 @@ header {
     width: auto;
     height: 100%;
     text-decoration: none;
+    font-size: 1.1em;
 }
 
 .nav__link1:hover {
@@ -56,6 +57,7 @@ header {
     width: auto;
     height: 100%;
     text-decoration: none;
+    font-size: 1.1em;
 }
 
 .nav__link2:hover {
