@@ -692,7 +692,7 @@ footer {
 /*about*/
 
 .footer__about {
-    margin-left: 3.125em;
+    margin-left:3% ;
     color: black;
     line-height: 200%;
     margin-top: 1.5em;
@@ -713,7 +713,7 @@ footer {
 /*accomodations*/
 
 .footer__accommodations {
-    margin-left: 25em;
+    margin-left: 21%;
     margin-bottom: 40px;
 }
 
@@ -732,7 +732,7 @@ footer {
 /*assistance*/
 
 .footer__assistance {
-    margin-left: 25em;
+    margin-left: 21%;
     margin-bottom: 40px;
 }
 
