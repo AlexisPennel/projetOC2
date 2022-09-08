@@ -534,6 +534,7 @@ main {
     height: auto;
     border: 1px rgb(255, 255, 255) solid;
     margin-top: 3.125em;
+    margin-bottom: 3em;
 }
 
 .activities__title {
@@ -597,7 +598,7 @@ main {
     border: 1px #DEEBFF solid;
     border-radius: 25px;
     width: 95%;
-    height: 53%;
+    height: 50%;
     text-decoration: none;
     color: black;
     margin-left: 0.5em;
@@ -664,11 +665,11 @@ main {
 .activities__parclongchamp {
     border: 1px black solid;
     grid-area: 2/4/2/4;
-    margin-top: 69%;
+    margin-top: 73%;
     border: 1px #DEEBFF solid;
     border-radius: 25px;
     width: 95%;
-    height: 53%;
+    height: 50%;
     text-decoration: none;
     color: black;
     margin-left: 1.1em;
@@ -684,16 +685,18 @@ footer {
     background-color: #F2F2F2;
     display: flex;
     align-items: center;
-    height: 230px;
+    height: auto;
     text-decoration: none;
 }
 
 /*about*/
 
 .footer__about {
-    margin-left: 50px;
+    margin-left: 3.125em;
     color: black;
     line-height: 200%;
+    margin-top: 1.5em;
+    margin-bottom: 3em;
 }
 
 .about__links {
@@ -710,7 +713,7 @@ footer {
 /*accomodations*/
 
 .footer__accommodations {
-    margin-left: 200px;
+    margin-left: 25em;
     margin-bottom: 40px;
 }
 
@@ -729,7 +732,7 @@ footer {
 /*assistance*/
 
 .footer__assistance {
-    margin-left: 230px;
+    margin-left: 25em;
     margin-bottom: 40px;
 }
 
