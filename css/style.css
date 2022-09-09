@@ -1013,4 +1013,117 @@ footer {
     border:1px #DEEBFF solid;
     border-radius: 0px 15px 15px 0px;
 }
+
+/*aside*/
+aside {
+    margin-left: 4%;
+    margin-top: 1em;
+}
+
+.filters {
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.5fr 1fr 1fr 1fr;
+}
+
+.filters h2 {
+    grid-area: 1/1/1/3;
+}
+
+.filters__eco {
+    grid-area: 2/1/2/1;
+    margin-left: 0px;
+}
+
+.filters__family {
+    grid-area: 2/1/2/2;
+    margin-left: 180px;
+    margin-right: 20px;
+}
+
+.filters__romantic {
+    grid-area: 3/1/3/1;
+    margin-left: 0px;
+}
+
+.filters__animals {
+    grid-area: 4/1/4/2;
+    margin-left: 0px;
+}
+
+
+/*main*/
+
+main {
+    height: auto;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+/*les plus populaires*/
+
+.mostpopular__header {
+    margin-left: 20px;
+}
+
+.header__icon {
+    margin-left: 60px;
+}
+
+.main__accommodations {
+    flex-direction: column-reverse;
+    height: auto;
+}
+
+.accommodations__mostpopular {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    margin-left: 0px;
+    border-radius: 0px;
+}
+
+.mostpopular__box {
+    width: 95%;
+    height: 10em;
+}
+
+.mostpopular__image {
+    width: 85%;
+    height: 92%;
+}
+
+.mostpopular__box p {
+    margin-left: 0%;
+}
+
+/*hébergements à Marseille*/
+
+
+.accommodations__principal {
+    height: auto;
+    width: auto;
+    background-color: white;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+}
+
+.accommodations__principal a {
+    height: 16em;
+    width: 93%;
+    margin-left: 3%;
+    margin-bottom: 3%;
+    margin-top: 2%;
+}
+
+.accommodations__principal a img {
+    width: 96%;
+}
+
+#showmore {
+    height: auto;
+    margin-left: 6%;
+    margin-top: 5%;
 }
