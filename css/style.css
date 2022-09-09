@@ -1126,4 +1126,31 @@ main {
     height: auto;
     margin-left: 6%;
     margin-top: 5%;
+    font-size: 1.1em;
+}
+
+/*activités*/
+
+.activities__title {
+    margin-left: 6%;
+}
+
+.main__activities {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+}
+
+.main__activities a {
+    width: 93%;
+    height: 14em;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    margin-left: 10px;
+}
+
+.main__activities img {
+    width: 100%;
+    height: 75%;
 }
