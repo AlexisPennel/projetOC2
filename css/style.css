@@ -797,11 +797,11 @@ footer {
         flex-direction: column;
         align-items: center;
         height: 60em;
-        margin-bottom:13% ;
+        margin-bottom: 13%;
     }
 
     .accommodations__principal {
-        width:100%;
+        width: 100%;
         height: 70%;
         margin-bottom: 5%;
     }
@@ -829,7 +829,7 @@ footer {
         grid-template-rows: 0.5fr 1fr;
         grid-template-columns: 1fr 1fr 1fr;
         width: 96%;
-        height: 35% ;
+        height: 35%;
         margin-left: 0.62em;
         margin-right: 0.62em;
         align-items: center;
@@ -926,260 +926,263 @@ footer {
 
 @media screen and (max-width:767px) {
 
-  /*header*/
+    /*header*/
 
-  header {
-    margin-left: 0%;
-    margin-right: 0%;
-  }
+    header {
+        margin-left: 0%;
+        margin-right: 0%;
+    }
 
-  /*header nav*/ 
+    /*header nav*/
 
-  .headernav__logo{
-    justify-content: center;
-    margin-left: 8%;
-  }
-  .headernav {
-    flex-direction: column;
-    align-items: center;
-  }
+    .headernav__logo {
+        justify-content: center;
+        margin-left: 8%;
+    }
 
-  .headernav__nav {
-    width: 100%;
-    height: 3em;
-    margin-left: 0%;
-    margin-right: 2%;
-    border-bottom: 3px #DEEBFF solid;
-  }
+    .headernav {
+        flex-direction: column;
+        align-items: center;
+    }
 
-  .nav__link1{
-    width: 50%;
-  }
+    .headernav__nav {
+        width: 100%;
+        height: 3em;
+        margin-left: 0%;
+        margin-right: 2%;
+        border-bottom: 3px #DEEBFF solid;
+    }
 
-  .nav__link2{
-    width: 50%;
-  }
-  .nav__link1:hover {
-    border-bottom: 4px #0065FC solid;
-    border-top: none;
-  }
+    .nav__link1 {
+        width: 50%;
+    }
 
-  .nav__link2:hover{
-    border-bottom: 4px #0065FC solid;
-    border-top: none;
-  }
+    .nav__link2 {
+        width: 50%;
+    }
 
-  /*barre recherche*/
+    .nav__link1:hover {
+        border-bottom: 4px #0065FC solid;
+        border-top: none;
+    }
 
-  header h1, p {
-    margin-left: 4%;
-  }
+    .nav__link2:hover {
+        border-bottom: 4px #0065FC solid;
+        border-top: none;
+    }
 
-.headersearch__form {
-    width: 100%;
-    margin-left: 4%;
-}
+    /*barre recherche*/
 
-.form__icon {
-    width: 15%;
-}
+    header h1,
+    p {
+        margin-left: 4%;
+    }
 
-.searchbar__bar {
-    width: 80%;
-    border: none;
-}
+    .headersearch__form {
+        width: 100%;
+        margin-left: 4%;
+    }
 
-.search__button {
-    height: auto;
-    width: 20%;
-    border-radius: 15px;
-}
+    .form__icon {
+        width: 15%;
+    }
 
-.searchbarandbutton__text {
-    visibility: hidden;
-    width: 0%;
-    height: 0%;
-}
+    .searchbar__bar {
+        width: 80%;
+        border: none;
+    }
 
-.fa-magnifying-glass {
-    visibility: visible;
-    width: 100%;
-    height: 100%;
-    font-size: 1.3em;
-}
+    .search__button {
+        height: auto;
+        width: 20%;
+        border-radius: 15px;
+    }
 
-.form__searchbarandbutton {
-    width: 70%;
-    border:1px #DEEBFF solid;
-    border-radius: 0px 15px 15px 0px;
-}
+    .searchbarandbutton__text {
+        visibility: hidden;
+        width: 0%;
+        height: 0%;
+    }
 
-/*aside*/
-aside {
-    margin-left: 4%;
-    margin-top: 1em;
-}
+    .fa-magnifying-glass {
+        visibility: visible;
+        width: 100%;
+        height: 100%;
+        font-size: 1.3em;
+    }
 
-.filters {
-    grid-template-columns: 1fr;
-    grid-template-rows: 0.5fr 1fr 1fr 1fr;
-}
+    .form__searchbarandbutton {
+        width: 70%;
+        border: 1px #DEEBFF solid;
+        border-radius: 0px 15px 15px 0px;
+    }
 
-.filters h2 {
-    grid-area: 1/1/1/3;
-}
+    /*aside*/
+    aside {
+        margin-left: 4%;
+        margin-top: 1em;
+    }
 
-.filters__eco {
-    grid-area: 2/1/2/1;
-    margin-left: 0px;
-}
+    .filters {
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.5fr 1fr 1fr 1fr;
+    }
 
-.filters__family {
-    grid-area: 2/1/2/2;
-    margin-left: 180px;
-    margin-right: 20px;
-}
+    .filters h2 {
+        grid-area: 1/1/1/3;
+    }
 
-.filters__romantic {
-    grid-area: 3/1/3/1;
-    margin-left: 0px;
-}
+    .filters__eco {
+        grid-area: 2/1/2/1;
+        margin-left: 0px;
+    }
 
-.filters__animals {
-    grid-area: 4/1/4/2;
-    margin-left: 0px;
-}
+    .filters__family {
+        grid-area: 2/1/2/2;
+        margin-left: 180px;
+        margin-right: 20px;
+    }
 
+    .filters__romantic {
+        grid-area: 3/1/3/1;
+        margin-left: 0px;
+    }
 
-/*main*/
-
-main {
-    height: auto;
-    margin-left: 0px;
-    margin-right: 0px;
-}
-
-/*les plus populaires*/
-
-.mostpopular__header {
-    margin-left: 20px;
-}
-
-.header__icon {
-    margin-left: 60px;
-}
-
-.main__accommodations {
-    flex-direction: column-reverse;
-    height: auto;
-}
-
-.accommodations__mostpopular {
-    display: flex;
-    flex-direction: column;
-    width: auto;
-    height: auto;
-    margin-left: 0px;
-    border-radius: 0px;
-}
-
-.mostpopular__box {
-    width: 95%;
-    height: 10em;
-}
-
-.mostpopular__image {
-    width: 85%;
-    height: 92%;
-}
-
-.mostpopular__box p {
-    margin-left: 0%;
-}
-
-/*hébergements à Marseille*/
+    .filters__animals {
+        grid-area: 4/1/4/2;
+        margin-left: 0px;
+    }
 
 
-.accommodations__principal {
-    height: auto;
-    width: auto;
-    background-color: white;
-    border: none;
-    display: flex;
-    flex-direction: column;
-    margin-top: 10%;
-}
+    /*main*/
 
-.accommodations__principal a {
-    height: 16em;
-    width: 93%;
-    margin-left: 3%;
-    margin-bottom: 3%;
-    margin-top: 2%;
-}
+    main {
+        height: auto;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
 
-.accommodations__principal a img {
-    width: 96%;
-}
+    /*les plus populaires*/
 
-#showmore {
-    height: auto;
-    margin-left: 6%;
-    margin-top: 5%;
-    font-size: 1.1em;
-}
+    .mostpopular__header {
+        margin-left: 20px;
+    }
 
-/*activités*/
+    .header__icon {
+        margin-left: 60px;
+    }
 
-.activities__title {
-    margin-left: 6%;
-}
+    .main__accommodations {
+        flex-direction: column-reverse;
+        height: auto;
+    }
 
-.main__activities {
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    margin-top: 10%;
-}
+    .accommodations__mostpopular {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        height: auto;
+        margin-left: 0px;
+        border-radius: 0px;
+    }
 
-.main__activities a {
-    width: 93%;
-    height: 14em;
-    margin-bottom: 2%;
-    margin-top: 2%;
-    margin-left: 10px;
-}
+    .mostpopular__box {
+        width: 95%;
+        height: 10em;
+    }
 
-.main__activities img {
-    width: 100%;
-    height: 75%;
-}
+    .mostpopular__image {
+        width: 85%;
+        height: 92%;
+    }
 
-/*footer*/
+    .mostpopular__box p {
+        margin-left: 0%;
+    }
 
-footer {
-    height: auto;
-    display: flex;
-    flex-direction: column;
-}
+    /*hébergements à Marseille*/
 
-.footer__about,
-.footer__accommodations,
-.footer__assistance {
-    margin-bottom: 8%;
-    margin-left: 0%;
-}
 
-.footer__about {
-    margin-right: 27%;
-}
+    .accommodations__principal {
+        height: auto;
+        width: auto;
+        background-color: white;
+        border: none;
+        display: flex;
+        flex-direction: column;
+        margin-top: 10%;
+    }
 
-.footer__accommodations {
-    margin-right: 40%;
-}
+    .accommodations__principal a {
+        height: 16em;
+        width: 93%;
+        margin-left: 3%;
+        margin-bottom: 3%;
+        margin-top: 2%;
+    }
 
-.footer__assistance {
-    margin-right: 56%;
-}
+    .accommodations__principal a img {
+        width: 96%;
+    }
+
+    #showmore {
+        height: auto;
+        margin-left: 6%;
+        margin-top: 5%;
+        font-size: 1.1em;
+    }
+
+    /*activités*/
+
+    .activities__title {
+        margin-left: 6%;
+    }
+
+    .main__activities {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        margin-top: 10%;
+    }
+
+    .main__activities a {
+        width: 93%;
+        height: 14em;
+        margin-bottom: 2%;
+        margin-top: 2%;
+        margin-left: 10px;
+    }
+
+    .main__activities img {
+        width: 100%;
+        height: 75%;
+    }
+
+    /*footer*/
+
+    footer {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer__about,
+    .footer__accommodations,
+    .footer__assistance {
+        margin-bottom: 8%;
+        margin-left: 0%;
+    }
+
+    .footer__about {
+        margin-right: 27%;
+    }
+
+    .footer__accommodations {
+        margin-right: 40%;
+    }
+
+    .footer__assistance {
+        margin-right: 56%;
+    }
 
 }
