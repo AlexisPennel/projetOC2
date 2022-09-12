@@ -303,9 +303,9 @@ main {
 
 .principal__title {
     grid-column: 1/4;
-    margin-left: 6%;
+    margin-left: 5%;
     margin-top: 4%;
-    margin-bottom: 0.5%;
+    margin-bottom: 2%;
     justify-self: flex-start;
     font-weight: bold;
     font-size: 1.5em;
@@ -325,7 +325,7 @@ main {
     text-decoration: none;
     color: black;
     box-shadow: 10px 10px 10px #aeb0b43d;
-    margin-top: 5%;
+    margin: 0% auto;
 }
 
 .principal__accommodations:hover {
@@ -337,30 +337,28 @@ main {
     border-radius: 30px 30px 0 0;
     width: 96%;
     height: 10em;
-    margin-left: 1.5%;
-    margin-top: 1.5%;
-    margin-right: 1.5%;
+    margin: 1.5% auto;
     object-fit: cover;
 }
 
 .accommodations__title {
-    font-size: large;
+    font-size: 1.1rem;
     font-weight: bold;
-    margin-top: 0.4em;
-    margin-left: 1em;
-    margin-bottom: 0.3em;
+    margin-top: 2%;
+    margin-left: 5% ;
+    margin-bottom: 2%;
 }
 
 .accommodations__text {
     margin-top: 0;
     margin-bottom: 0;
-    margin-left: 1em;
-    font-size: large;
+    margin-left: 5%;
+    font-size: 1em;
 }
 
 .accommodations__icons {
     display: flex;
-    margin-left: 1em;
+    margin-left: 5%;
     color: #0065FC;
 }
 
@@ -402,7 +400,7 @@ main {
     background-color: #F2F2F2;
     border: 3px #F2F2F2 solid;
     border-radius: 25px;
-    margin-left: 2.7em;
+    margin-left: 2.7%;
     width: 30%;
     height: auto;
 }
@@ -412,11 +410,12 @@ main {
 .mostpopular__header {
     display: flex;
     align-items: center;
-    margin-left: 40px;
+    align-self: flex-start;
+    margin-left: 11%;
     font-weight: bold;
     font-size: 1em;
     margin-top: 0%;
-    margin-bottom: 2%;
+    margin-bottom: 0.8%;
 }
 
 .header__icon {
@@ -441,6 +440,7 @@ main {
     box-shadow: 10px 10px 10px #aeb0b43d;
     margin-bottom: 7%;
     margin-top: 0%;
+    overflow: hidden;
 }
 
 
@@ -449,15 +449,13 @@ main {
 }
 
 .mostpopular__image {
-    width: 90%;
-    height: 90%;
+    width: 94%;
+    height: 92%;
     grid-area: 1/1/4/1;
-    border: 0px white solid;
-    border-radius: 15px 0 0 15px;
-    margin-top: 5%;
-    margin-left: 5%;
-    margin-bottom: 3%;
+    border-radius: 25px 0 0 25px;
     object-fit: cover;
+    overflow: hidden;
+    margin: 4% auto;
 }
 
 .mostpopular__icons--empty {
@@ -465,14 +463,14 @@ main {
 }
 
 .mostpopular__box p {
-    font-size: large;
+    font-size: 1em;
     margin-top: 0%;
 }
 
 /*hotel le soleil du matin*/
 
 .hotellesoleildumatin__title {
-    font-size: large;
+    font-size: 1.1em;
     font-weight: bold;
     grid-area: 1/2/1/2;
     margin-top: 8%;
@@ -490,7 +488,7 @@ main {
 /*au coeur de l'eau*/
 
 .aucoeurdeleau__title {
-    font-size: large;
+    font-size: 1.1em;
     font-weight: bold;
     grid-area: 1/2/1/2;
     margin-top: 8%;
@@ -513,7 +511,7 @@ main {
 /*hotel tout bleu*/
 
 .hoteltoutbleu__title {
-    font-size: large;
+    font-size: 1.2em;
     font-weight: bold;
     grid-area: 1/2/1/2;
     margin-top: 8%;
@@ -549,7 +547,7 @@ main {
 .activities__title {
     margin-left: 0.5em;
     grid-area: 1/1/1/4;
-    font-size: x-large;
+    font-size: 1.5em;
 }
 
 .activities__image {
@@ -579,8 +577,8 @@ main {
 
 .activities__titles {
     font-size: 1em;
-    margin-top: 10px;
-    margin-left: 10px;
+    margin-top: 5%;
+    margin-left: 5%;
 }
 
 /*vieux port*/
@@ -621,7 +619,7 @@ main {
 
 .activities__ile {
     grid-area: 2/2/2/2;
-    margin-top: 90%;
+    margin-top: 92%;
     border: 1px #DEEBFF solid;
     border-radius: 25px;
     width: 95%;
@@ -674,7 +672,7 @@ main {
 .activities__parclongchamp {
     border: 1px black solid;
     grid-area: 2/4/2/4;
-    margin-top: 73%;
+    margin-top: 75%;
     border: 1px #DEEBFF solid;
     border-radius: 25px;
     width: 95%;
@@ -704,7 +702,7 @@ footer {
     margin-left: 3%;
     color: black;
     line-height: 200%;
-    margin-top: 1.5em;
+    margin-top: 2.3em;
     margin-bottom: 3em;
 }
 
@@ -778,7 +776,15 @@ footer {
         width: 130px;
     }
 
+    .headersearch {
+        margin-top: 3%;
+    }
     /*aside-filters*/
+
+    aside {
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
 
     .filters {
         grid-template-rows: 1fr 1fr;
@@ -856,6 +862,7 @@ footer {
     .mostpopular__image {
         width: 94%;
         border-radius: 25px 25px 0 0;
+        margin: 3% auto;
     }
 
     .aucoeurdeleau__title,
@@ -927,6 +934,13 @@ footer {
 /*smartphones*/
 
 @media screen and (max-width:767px) {
+
+    /*body*/
+
+    body{
+        width: auto;
+        margin: 0;
+    }
 
     /*header*/
 
@@ -1067,11 +1081,13 @@ footer {
     /*les plus populaires*/
 
     .mostpopular__header {
-        margin-left: 20px;
+        width: 100%;
+        margin-left: 5%;
     }
 
     .header__icon {
-        margin-left: 60px;
+        margin-left: 10%;
+        margin-right: 0%;
     }
 
     .main__accommodations {
@@ -1094,8 +1110,10 @@ footer {
     }
 
     .mostpopular__image {
-        width: 85%;
-        height: 92%;
+        width: 90%;
+        height: 94%;
+        margin-left: 3%;
+        margin-top: 3%;
     }
 
     .mostpopular__box p {
