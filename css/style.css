@@ -345,7 +345,7 @@ main {
     font-size: 1.1rem;
     font-weight: bold;
     margin-top: 2%;
-    margin-left: 5% ;
+    margin-left: 5%;
     margin-bottom: 2%;
 }
 
@@ -420,12 +420,12 @@ main {
 }
 
 .mostpopular__header h2 {
-    width:max-content;
+    width: max-content;
 }
 
 .header__icon {
     font-size: 20px;
-    margin-left:auto;
+    margin-left: auto;
     margin-right: auto;
 }
 
@@ -775,10 +775,10 @@ footer {
 /*desktop - small*/
 
 @media screen and (min-width: 992px) and (max-width: 1300px) {
-    
+
     /*header*/
 
-    /*nav*/ 
+    /*nav*/
 
     .headernav__nav {
         margin-left: 20%;
@@ -792,29 +792,31 @@ footer {
         width: 65%;
     }
 
-    .mostpopular__header{
+    .mostpopular__header {
         width: 80%;
-        margin-left:13%;
+        margin-left: 13%;
         margin-bottom: 2%;
     }
 
     .mostpopular__header h2 {
         width: max-content;
     }
+
     .header__icon {
-        margin-left:auto;
+        margin-left: auto;
         margin-right: auto;
     }
-    .accommodations__mostpopular{
+
+    .accommodations__mostpopular {
         width: 35%;
     }
 
-    .mostpopular__box{
+    .mostpopular__box {
         margin-bottom: 12%;
     }
 
     .mostpopular__image {
-        margin:auto;
+        margin: auto;
     }
 
     .mostpopular__box h2 {
@@ -853,6 +855,7 @@ footer {
     .headersearch {
         margin-top: 3%;
     }
+
     /*aside-filters*/
 
     aside {
@@ -1012,7 +1015,7 @@ footer {
 
     /*body*/
 
-    body{
+    body {
         width: auto;
         margin: 0;
     }
