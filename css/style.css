@@ -492,7 +492,7 @@ main {
     color: #0065FC;
     display: flex;
     align-items: flex-end;
-    margin-bottom: 1.5em;
+    margin-bottom: 15%;
     margin-left: 3%;
 }
 
@@ -516,7 +516,7 @@ main {
     color: #0065FC;
     display: flex;
     align-items: flex-end;
-    margin-bottom: 1.5em;
+    margin-bottom: 15%;
     margin-left: 3%;
 }
 
@@ -542,7 +542,7 @@ main {
     color: #0065FC;
     display: flex;
     align-items: flex-end;
-    margin-bottom: 1.5em;
+    margin-bottom: 15%;
     margin-left: 3%;
 }
 
@@ -943,30 +943,23 @@ footer {
         border-radius: 25px 25px 0 0;
     }
 
-    .aucoeurdeleau__title,
-    .hotellesoleildumatin__title,
-    .hoteltoutbleu__title {
+    .mostpopular__box h2 {
         margin-bottom: 5px;
         margin-top: 5px;
+        margin-left: 4%;
     }
 
-    .aucoeurdeleau__text,
-    .hotellesoleildumatin__text,
-    .hoteltoutbleu__text {
+    .mostpopular__box p {
         margin-bottom: 5px;
         margin-top: 3px;
+        margin-left: 4%;
     }
 
-    .aucoeurdeleau__title,
-    .aucoeurdeleau__text,
-    .aucoeurdeleau__icons,
-    .hotellesoleildumatin__title,
-    .hotellesoleildumatin__text,
     .hotellesoleildumatin__icons,
     .hoteltoutbleu__icons,
-    .hoteltoutbleu__text,
-    .hoteltoutbleu__title {
-        margin-left: 7px;
+    .aucoeurdeleau__icons {
+        margin-left: 4%;
+        margin-top: 1%;
     }
 
     /*activités*/
@@ -1181,6 +1174,7 @@ footer {
         height: auto;
         margin-left: 0px;
         border-radius: 0px;
+        margin-top: 5%;
     }
 
     .mostpopular__box {
@@ -1196,6 +1190,16 @@ footer {
     }
 
     .mostpopular__box p {
+        margin-left: 0%;
+    }
+
+    .mostpopular__box h2 {
+        margin-left: 0%;
+    }
+
+    .hotellesoleildumatin__icons,
+    .aucoeurdeleau__icons,
+    .hoteltoutbleu__icons {
         margin-left: 0%;
     }
 
