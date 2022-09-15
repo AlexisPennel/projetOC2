@@ -51,7 +51,7 @@ header {
 }
 
 .nav__link1:hover {
-    color: blue;
+    color:#0065FC;
     border-top: 3px #0065FC solid;
 }
 
@@ -67,7 +67,7 @@ header {
 }
 
 .nav__link2:hover {
-    color: blue;
+    color: #0065FC;
     border-top: 3px #0065FC solid;
 }
 
@@ -255,7 +255,7 @@ aside {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: blue;
+    background-color: #0065FC;
     height: 11px;
     width: 11px;
     border: 7px #DEEBFF solid;
@@ -269,7 +269,7 @@ aside {
 }
 
 .info__text {
-    margin-left: 3px;
+    margin-left:0.5%;
 }
 
 /*main*/
@@ -303,7 +303,7 @@ main {
 
 .principal__title {
     grid-column: 1/4;
-    margin-left: 5%;
+    margin-left: 3.5%;
     margin-top: 4%;
     margin-bottom: 2%;
     justify-self: flex-start;
@@ -411,12 +411,12 @@ main {
     display: flex;
     align-items: center;
     align-self: flex-start;
-    margin-left: 13%;
+    margin-left: 8.5%;
     font-weight: bold;
     font-size: 1em;
     margin-top: 0%;
     margin-bottom: 0.9%;
-    width: 80%;
+    width: 90%;
 }
 
 .mostpopular__header h2 {
@@ -425,7 +425,7 @@ main {
 
 .header__icon {
     font-size: 20px;
-    margin-left: auto;
+    margin-left: 39%;
     margin-right: auto;
 }
 
@@ -560,7 +560,6 @@ main {
 }
 
 .activities__title {
-    margin-left: 0.5em;
     grid-area: 1/1/1/4;
     font-size: 1.5em;
 }
@@ -876,6 +875,12 @@ footer {
         grid-area: 2/2/2/4;
     }
 
+    /*info*/ 
+
+    .info__text{
+        margin-left: 1%;
+    }
+
     /*main-accommodations*/
 
     .main__accommodations {
@@ -890,7 +895,7 @@ footer {
         height: 70%;
         margin-bottom: 5%;
     }
-
+    
     .principal__accommodations {
         height: 13.75em;
         margin-bottom: 5%;
@@ -902,7 +907,7 @@ footer {
     }
 
     #showmore {
-        margin-left: 20%;
+        margin-left: 11%;
         margin-top: 5%;
     }
 
@@ -920,14 +925,19 @@ footer {
     }
 
     .mostpopular__header {
-        margin-left: 4%;
+        margin-left: 3%;
         grid-area: 1/1/1/4;
         margin-top: 2%;
         margin-bottom: 1%;
+        width: 100%;
+    }
+
+    .mostpopular__header h2 {
+        width: 80%;
     }
 
     .header__icon {
-        margin-left: 10%;
+        margin-left:11%;
     }
 
     .mostpopular__box {
@@ -974,7 +984,7 @@ footer {
     }
 
     .activities__title {
-        margin-left: 7%;
+        margin-left: 4%;
     }
 
     .main__activities a {
@@ -1006,7 +1016,7 @@ footer {
 
     .footer__accommodations,
     .footer__assistance {
-        margin-left: 70px;
+        margin-left: 13%;
     }
 }
 
@@ -1024,8 +1034,18 @@ footer {
     /*header nav*/
 
     .headernav__logo {
+        display: flex;
         justify-content: center;
-        margin-left: 8%;
+        margin-left: 45%;
+        width: 50%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    .headernav__logo img {
+        justify-content: center;
+        width: 60%;
+        height: 40%;
     }
 
     .headernav {
@@ -1038,7 +1058,7 @@ footer {
         height: 3em;
         margin-left: 0%;
         margin-right: 2%;
-        border-bottom: 3px #DEEBFF solid;
+        border-bottom: 2px #DEEBFF solid;
     }
 
     .nav__link1 {
@@ -1050,12 +1070,13 @@ footer {
     }
 
     .nav__link1:hover {
-        border-bottom: 4px #0065FC solid;
+        border-bottom: 2px #0065FC solid;
         border-top: none;
+
     }
 
     .nav__link2:hover {
-        border-bottom: 4px #0065FC solid;
+        border-bottom: 3px #0065FC solid;
         border-top: none;
     }
 
@@ -1063,12 +1084,12 @@ footer {
 
     header h1,
     p {
-        margin-left: 4%;
+        margin-left: 5%;
     }
 
     .headersearch__form {
-        width: 100%;
-        margin-left: 4%;
+        width:98%;
+        margin-left: 5%;
     }
 
     .form__icon {
@@ -1076,20 +1097,20 @@ footer {
     }
 
     .searchbar__bar {
-        width: 80%;
+        width: 100%;
         border: none;
     }
 
     .search__button {
         height: auto;
-        width: 20%;
+        width: 24%;
         border-radius: 15px;
     }
 
     .searchbarandbutton__text {
         visibility: hidden;
-        width: 0%;
-        height: 0%;
+        width: 0;
+        height: 0;
     }
 
     .fa-magnifying-glass {
@@ -1100,7 +1121,7 @@ footer {
     }
 
     .form__searchbarandbutton {
-        width: 70%;
+        width: 76%;
         border: 1px #DEEBFF solid;
         border-radius: 0px 15px 15px 0px;
     }
@@ -1141,6 +1162,21 @@ footer {
         margin-left: 0px;
     }
 
+    /*info*/
+
+    .info {
+        margin-top: 3%;
+    }
+
+    .info__icon{
+        align-self: flex-start;
+        margin-top: 3.7%;
+    }
+
+    .info__text{
+        margin-left: 3%;
+    }
+
 
     /*main*/
 
@@ -1154,11 +1190,12 @@ footer {
 
     .mostpopular__header {
         width: 100%;
-        margin-left: 5%;
+        margin-left: 3%;
+        margin-top: 0%;
     }
 
     .header__icon {
-        margin-left: 10%;
+        margin-left: 26.5%;
         margin-right: 0%;
     }
 
@@ -1171,7 +1208,7 @@ footer {
         display: flex;
         flex-direction: column;
         width: auto;
-        height: auto;
+        height: 40em;
         margin-left: 0px;
         border-radius: 0px;
         margin-top: 5%;
@@ -1180,6 +1217,7 @@ footer {
     .mostpopular__box {
         width: 95%;
         height: 10em;
+        margin-bottom: 3%;
     }
 
     .mostpopular__image {
@@ -1205,7 +1243,6 @@ footer {
 
     /*hébergements à Marseille*/
 
-
     .accommodations__principal {
         height: auto;
         width: auto;
@@ -1230,7 +1267,7 @@ footer {
 
     #showmore {
         height: auto;
-        margin-left: 6%;
+        margin-left: 3%;
         margin-top: 5%;
         font-size: 1.1em;
     }
@@ -1238,7 +1275,7 @@ footer {
     /*activités*/
 
     .activities__title {
-        margin-left: 6%;
+        margin-left: 3%;
     }
 
     .main__activities {
@@ -1251,7 +1288,7 @@ footer {
     .main__activities a {
         width: 93%;
         height: 14em;
-        margin-bottom: 2%;
+        margin-bottom: 4%;
         margin-top: 2%;
         margin-left: 10px;
     }
