@@ -51,7 +51,7 @@ header {
 }
 
 .nav__link1:hover {
-    color:#0065FC;
+    color: #0065FC;
     border-top: 3px #0065FC solid;
 }
 
@@ -269,7 +269,7 @@ aside {
 }
 
 .info__text {
-    margin-left:0.5%;
+    margin-left: 0.5%;
 }
 
 /*main*/
@@ -426,7 +426,7 @@ main {
 .header__icon {
     font-size: 20px;
     margin-left: 39%;
-    margin-right:8%;
+    margin-right: 8%;
     margin-left: auto;
 }
 
@@ -455,7 +455,7 @@ main {
 }
 
 .mostpopular__image {
-    width: 94%;
+    width: 85%;
     height: 10.6em;
     grid-area: 1/1/4/1;
     border-radius: 25px 0 0 25px;
@@ -474,7 +474,6 @@ main {
 .mostpopular__box p {
     font-size: 1em;
     margin-top: 0%;
-    margin-left: 3%;
 }
 
 /*hotel le soleil du matin*/
@@ -486,7 +485,6 @@ main {
     margin-top: 8%;
     margin-bottom: 8%;
     margin-right: 15%;
-    margin-left: 3%;
 }
 
 .hotellesoleildumatin__icons {
@@ -494,7 +492,6 @@ main {
     display: flex;
     align-items: flex-end;
     margin-bottom: 15%;
-    margin-left: 3%;
 }
 
 /*au coeur de l'eau*/
@@ -505,7 +502,6 @@ main {
     grid-area: 1/2/1/2;
     margin-top: 8%;
     margin-bottom: 8%;
-    margin-left: 3%;
 }
 
 .aucoeurdeleau__text {
@@ -518,7 +514,6 @@ main {
     display: flex;
     align-items: flex-end;
     margin-bottom: 15%;
-    margin-left: 3%;
 }
 
 
@@ -531,7 +526,6 @@ main {
     margin-top: 8%;
     margin-bottom: 8%;
     margin-right: 25%;
-    margin-left: 3%;
 }
 
 .hoteltoutbleu__text {
@@ -544,7 +538,6 @@ main {
     display: flex;
     align-items: flex-end;
     margin-bottom: 15%;
-    margin-left: 3%;
 }
 
 /*activités à Marseille*/
@@ -592,6 +585,7 @@ main {
 
 .activities__titles {
     font-size: 1em;
+    font-weight: bold;
     margin-top: 5%;
     margin-left: 5%;
 }
@@ -816,7 +810,7 @@ footer {
     }
 
     .mostpopular__image {
-        margin: auto;
+        height: 95%;
     }
 
     .mostpopular__box h2 {
@@ -829,8 +823,6 @@ footer {
     .activities__titles {
         font-size: 0.9em;
     }
-
-
 }
 
 /*Tablettes*/
@@ -876,9 +868,9 @@ footer {
         grid-area: 2/2/2/4;
     }
 
-    /*info*/ 
+    /*info*/
 
-    .info__text{
+    .info__text {
         margin-left: 1%;
     }
 
@@ -896,7 +888,7 @@ footer {
         height: 70%;
         margin-bottom: 5%;
     }
-    
+
     .principal__accommodations {
         height: 13.75em;
         margin-bottom: 5%;
@@ -1089,8 +1081,9 @@ footer {
     }
 
     .headersearch__form {
-        width:98%;
+        width: 98%;
         margin-left: 5%;
+        margin-top: 10%;
     }
 
     .form__icon {
@@ -1169,12 +1162,12 @@ footer {
         margin-top: 3%;
     }
 
-    .info__icon{
+    .info__icon {
         align-self: flex-start;
         margin-top: 3.7%;
     }
 
-    .info__text{
+    .info__text {
         margin-left: 3%;
     }
 
@@ -1192,7 +1185,6 @@ footer {
     .mostpopular__header {
         width: 100%;
         margin-left: 3%;
-        margin-top: 0%;
     }
 
     .header__icon {
