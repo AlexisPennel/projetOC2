@@ -71,7 +71,7 @@ header {
     border-top: 3px #0065FC solid;
 }
 
-/*header <section> (recherche)*/
+/*header section recherche*/
 
 .form__searchbarandbutton {
     display: flex;
@@ -177,7 +177,7 @@ aside {
     height: 3em;
     width: 14.06em;
     display: flex;
-    border: 2px #DEEBFF solid;
+    border: 1px #DEEBFF solid;
     border-radius: 30px 30px 30px 30px;
     margin-left: 2em;
 }
