@@ -382,7 +382,7 @@ main {
     color: black;
     font-weight: bold;
     font-size: 1.3em;
-    margin-left: 17%;
+    margin-left: 10.5%;
     margin-bottom: 10%;
 }
 
@@ -426,7 +426,8 @@ main {
 .header__icon {
     font-size: 20px;
     margin-left: 39%;
-    margin-right: auto;
+    margin-right:8%;
+    margin-left: auto;
 }
 
 /*hébergements les plus populaires*/
@@ -887,7 +888,7 @@ footer {
         flex-direction: column;
         align-items: center;
         height: 60em;
-        margin-bottom: 13%;
+        margin-bottom: 9%;
     }
 
     .accommodations__principal {
@@ -933,11 +934,11 @@ footer {
     }
 
     .mostpopular__header h2 {
-        width: 80%;
+        width: 100%;
     }
 
     .header__icon {
-        margin-left:11%;
+        margin-right: 6%;
     }
 
     .mostpopular__box {
@@ -1016,7 +1017,7 @@ footer {
 
     .footer__accommodations,
     .footer__assistance {
-        margin-left: 13%;
+        margin-left: 10%;
     }
 }
 
