@@ -812,7 +812,7 @@ footer {
         height: 95%;
     }
 
-    .mostpopular__box h2 {
+    .mostpopular__box h3 {
         margin-right: 3%;
 
     }
@@ -945,7 +945,7 @@ footer {
         border-radius: 25px 25px 0 0;
     }
 
-    .mostpopular__box h2 {
+    .mostpopular__box h3 {
         margin-bottom: 5px;
         margin-top: 5px;
         margin-left: 4%;
@@ -1306,11 +1306,11 @@ footer {
     }
 
     .footer__about {
-        margin-right: 27%;
+        margin-right: 30%;
     }
 
     .footer__accommodations {
-        margin-right: 40%;
+        margin-right: 30%;
     }
 
     .footer__assistance {
