@@ -1016,6 +1016,11 @@ footer {
 
 @media screen and (max-width:767px) {
 
+    html, body {
+       width: 100%;
+       overflow-x: hidden;
+    }
+
     /*header*/
 
     header {
@@ -1080,7 +1085,7 @@ footer {
     }
 
     .headersearch__form {
-        width: 98%;
+        width: 90%;
         margin-left: 5%;
         margin-top: 10%;
     }
@@ -1114,7 +1119,7 @@ footer {
     }
 
     .form__searchbarandbutton {
-        width: 76%;
+        width: 84%;
         border: 1px #DEEBFF solid;
         border-radius: 0px 15px 15px 0px;
     }
