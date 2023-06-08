@@ -1006,6 +1006,7 @@ footer {
 
     /*footer*/
 
+    
     .footer__accommodations,
     .footer__assistance {
         margin-left: 10%;
@@ -1300,13 +1301,14 @@ footer {
         height: auto;
         display: flex;
         flex-direction: column;
+        align-items: flex-start;
     }
 
     .footer__about,
     .footer__accommodations,
     .footer__assistance {
         margin-bottom: 8%;
-        margin-left: 0%;
+        margin-left: 10%;
     }
 
     .footer__about {
